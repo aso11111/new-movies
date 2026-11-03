@@ -251,7 +251,7 @@ def tmdb_enrich(m, h):
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 SITE = "https://aso11111.github.io/new-movies/"
-HIGH_RATING = 7.5
+HIGH_RATING = 7.5  # notify threshold
 
 
 def notify(title, message, m):

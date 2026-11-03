@@ -1,0 +1,36 @@
+name: Update movies
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/update.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch data
+        run: python scripts/fetch.py | tee fetch.log
+      - name: Commit
+        run: |
+          git config user.name "movies-bot"
+          git config user.email "movies-bot@users.noreply.github.com"
+          cp fetch.log data/last-run.log
+          git add data
+          git diff --cached --quiet || git commit -m "Update movies $(date -u +%F' '%H:%M)"
+          git pull --rebase origin main
+          git push origin HEAD:main

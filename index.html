@@ -343,8 +343,8 @@ function openMovie(id) {
           ${m.runtime ? `<span>المدة</span><span>${runtime(m.runtime)}</span>` : ""}
           ${m.certificate ? `<span>التصنيف العمري</span><span>${esc(m.certificate)}</span>` : ""}
           <span>المتجر السعودي</span><span>${m.inSaudiStore ? "✓ متوفر" + (m.saRank ? " (#" + ar(m.saRank) + ")" : "") : "—"}</span>
-          ${m.price ? `<span>شراء (أمريكي)</span><span>${esc(m.price)}</span>` : ""}
-          ${m.rentalPrice ? `<span>إيجار (أمريكي)</span><span>${esc(m.rentalPrice)}</span>` : ""}
+          ${m.price ? `<span>سعر الشراء</span><span>${esc(m.price)}</span>` : ""}
+          ${m.rentalPrice ? `<span>سعر الإيجار</span><span>${esc(m.rentalPrice)}</span>` : ""}
           ${m.firstSeen ? `<span>دخل القائمة</span><span>${fmtDate(m.firstSeen)}</span>` : ""}
         </div>
       </div>

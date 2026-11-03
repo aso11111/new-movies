@@ -260,15 +260,19 @@ def main():
     if not us:
         print("No iTunes data; keeping previous file.")
         return
-    sa_ids = {m["itunesId"]: m["rank"] for m in sa}
+    # the same film has a different iTunes id in each storefront: match by title
+    def key(m):
+        return re.sub(r"[^a-z0-9]", "", m["rawTitle"].lower())
+    sa_by_title = {key(m): m["rank"] for m in sa}
+    us_titles = {key(m) for m in us}
 
-    movies = us + [m for m in sa if m["itunesId"] not in {x["itunesId"] for x in us}]
+    movies = us + [m for m in sa if key(m) not in us_titles]
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     us_ids = {x["itunesId"] for x in us}
     for m in movies:
-        m["inSaudiStore"] = m["itunesId"] in sa_ids
-        m["saRank"] = sa_ids.get(m["itunesId"])
+        m["inSaudiStore"] = key(m) in sa_by_title
+        m["saRank"] = sa_by_title.get(key(m))
         if m["itunesId"] not in us_ids:
             m["rank"] = 100 + m["rank"]
         h = history.setdefault(m["itunesId"], {"firstSeen": today})
@@ -335,4 +339,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-# run 1793746440

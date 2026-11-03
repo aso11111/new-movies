@@ -78,6 +78,17 @@
   .badge b { color: var(--accent); }
   .new { position: absolute; top: 8px; left: 8px; background: var(--good); color: #062; font-size: 11.5px; font-weight: 700; border-radius: 6px; padding: 1px 7px; }
   .saved { position: absolute; bottom: 8px; left: 8px; background: rgba(0,0,0,.72); border-radius: 8px; padding: 2px 7px; font-size: 13px; }
+  .disc { position: absolute; bottom: 8px; left: 8px; background: rgba(0,0,0,.78); border: 1px solid rgba(94,200,255,.5); color: var(--accent2); border-radius: 6px; padding: 0 6px; font-size: 11.5px; font-weight: 600; direction: ltr; }
+  .disc.soon { border-color: rgba(255,255,255,.25); color: #cfd5e2; }
+  .dates { display: grid; gap: 8px; margin-bottom: 18px; }
+  .date-row { display: flex; align-items: center; gap: 10px; background: var(--panel2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; font-size: 13.5px; }
+  .date-row .ic { font-size: 18px; }
+  .date-row .lbl { color: var(--muted); min-width: 64px; }
+  .date-row .val { font-weight: 600; }
+  .date-row .when { color: var(--muted); margin-inline-start: auto; font-size: 12.5px; }
+  .date-row.na .val { color: var(--muted); font-weight: 400; }
+  .fmt { display: inline-block; direction: ltr; background: rgba(94,200,255,.12); color: var(--accent2); border-radius: 6px; padding: 0 6px; margin-inline-start: 6px; font-size: 12px; }
+  .ar-plot { direction: rtl !important; text-align: right !important; font-size: 15px !important; }
   .rank { position: absolute; bottom: 6px; right: 10px; font-size: 34px; font-weight: 700; color: rgba(255,255,255,.92); text-shadow: 0 2px 10px rgba(0,0,0,.8); line-height: 1; }
   .card h4 { margin: 10px 2px 2px; font-size: 14.5px; font-weight: 500; direction: ltr; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .card .sub { margin: 0 2px; color: var(--muted); font-size: 12.5px; }
@@ -140,7 +151,9 @@
       <label class="search">🔍<input id="q" type="search" placeholder="ابحث باسم الفيلم أو الممثل أو المخرج…"></label>
       <select id="sort" aria-label="الترتيب">
         <option value="rank">الأكثر طلباً</option>
-        <option value="released">الأحدث إصداراً</option>
+        <option value="digital">الأحدث رقمياً</option>
+        <option value="disc">نزل على Blu-ray</option>
+        <option value="released">الأحدث في السينما</option>
         <option value="rating">الأعلى تقييماً</option>
         <option value="votes">الأكثر تصويتاً</option>
         <option value="seen">آخر ما وصل</option>
@@ -213,6 +226,24 @@ function isRecent(m) { return daysAgo(m.released) <= 183; }
 function copyText(m) { return m.title + (m.year ? " (" + m.year + ")" : ""); }
 function imdbUrl(m) { return m.imdb ? "https://www.imdb.com/title/" + m.imdb + "/" : "https://www.imdb.com/find/?s=tt&q=" + encodeURIComponent(m.title); }
 function genreAr(g) { return GENRES[g] || g; }
+const today = new Date().toISOString().slice(0, 10);
+function cinemaDate(m) { return m.theatrical || m.released || ""; }
+function discLabel(m) {
+  const f = m.physicalFormats || [];
+  if (f.includes("4K UHD")) return "4K";
+  if (f.includes("Blu-ray")) return "Blu-ray";
+  if (f.includes("DVD")) return "DVD";
+  return "Disc";
+}
+function discBadge(m) {
+  if (!m.physical) return "";
+  return m.physical <= today ? `<div class="disc">💿 ${discLabel(m)}</div>` : `<div class="disc soon">💿 قريباً</div>`;
+}
+function dateRow(icon, label, date, extra, hasSource) {
+  if (!date) return hasSource ? `<div class="date-row na"><span class="ic">${icon}</span><span class="lbl">${label}</span><span class="val">لم يُعلن بعد</span></div>` : "";
+  const future = date > today;
+  return `<div class="date-row"><span class="ic">${icon}</span><span class="lbl">${label}</span><span class="val">${fmtDate(date)}</span>${extra || ""}<span class="when">${future ? "بعد " + ar(-daysAgo(date)) + " يوم" : since(date)}</span></div>`;
+}
 
 function toast(t) { const el = $("toast"); el.textContent = t; el.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove("show"), 1800); }
 async function copy(m) {
@@ -225,7 +256,7 @@ async function copy(m) {
 /* ----- rendering ----- */
 function renderHero(m) {
   if (!m) return;
-  $("heroBg").style.backgroundImage = `url("${m.poster}")`;
+  $("heroBg").style.backgroundImage = `url("${m.backdrop || m.poster}")`;
   $("heroInner").innerHTML = `
     <img src="${esc(m.poster)}" alt="" data-open="${esc(m.itunesId)}">
     <div>
@@ -238,7 +269,7 @@ function renderHero(m) {
         ${m.runtime ? `<span>${runtime(m.runtime)}</span>` : ""}
         ${m.certificate ? `<span>${esc(m.certificate)}</span>` : ""}
       </div>
-      <p>${esc(m.plot || m.summary)}</p>
+      ${m.overviewAr ? `<p class="ar-plot">${esc(m.overviewAr)}</p>` : `<p>${esc(m.plot || m.summary)}</p>`}
       <div class="btns">
         <button class="btn primary" data-open="${esc(m.itunesId)}">▶ الإعلان والتفاصيل</button>
         <button class="btn" data-copy="${esc(m.itunesId)}">📋 نسخ الاسم</button>
@@ -264,10 +295,14 @@ function filtered() {
     (!state.mine || mine.has(m.itunesId)));
   const base = list;
   if (state.genre) list = list.filter(m => m.genre === state.genre);
-  if (q) list = list.filter(m => [m.title, m.directors?.join(" "), m.cast?.join(" "), m.director].join(" ").toLowerCase().includes(q));
+  if (state.sort === "disc") list = list.filter(m => m.physical && m.physical <= today);
+  if (state.sort === "digital") list = list.filter(m => m.digital);
+  if (q) list = list.filter(m => [m.title, m.titleAr, m.directors?.join(" "), m.cast?.join(" "), m.director].join(" ").toLowerCase().includes(q));
   const by = {
     rank: (a, b) => a.rank - b.rank,
-    released: (a, b) => (b.released || "").localeCompare(a.released || ""),
+    released: (a, b) => cinemaDate(b).localeCompare(cinemaDate(a)),
+    digital: (a, b) => (b.digital || "").localeCompare(a.digital || "") || a.rank - b.rank,
+    disc: (a, b) => ((b.physical && b.physical <= today ? b.physical : "") || "").localeCompare((a.physical && a.physical <= today ? a.physical : "") || "") || a.rank - b.rank,
     rating: (a, b) => (b.rating || 0) - (a.rating || 0) || (b.votes || 0) - (a.votes || 0),
     votes: (a, b) => (b.votes || 0) - (a.votes || 0),
     seen: (a, b) => (b.firstSeen || "").localeCompare(a.firstSeen || "") || a.rank - b.rank,
@@ -281,7 +316,7 @@ function card(m) {
       <img loading="lazy" src="${esc(m.poster)}" alt="${esc(m.title)}">
       ${m.rating ? `<div class="badge"><b>★</b>${m.rating.toFixed(1)}</div>` : ""}
       ${isNewArrival(m) ? `<div class="new">وصل جديد</div>` : ""}
-      ${mine.has(m.itunesId) ? `<div class="saved">📥</div>` : ""}
+      ${mine.has(m.itunesId) ? `<div class="saved">📥</div>` : discBadge(m)}
       ${state.sort === "rank" && m.rank <= 10 ? `<div class="rank">${ar(m.rank)}</div>` : ""}
     </div>
     <h4 title="${esc(m.title)}">${esc(m.title)}</h4>
@@ -292,7 +327,7 @@ function card(m) {
 function render() {
   const { base, list } = filtered();
   renderChips(base);
-  const titles = { rank: "الأكثر طلباً", released: "الأحدث إصداراً", rating: "الأعلى تقييماً", votes: "الأكثر تصويتاً", seen: "آخر ما وصل" };
+  const titles = { rank: "الأكثر طلباً", digital: "الأحدث رقمياً", disc: "نزل على Blu-ray", released: "الأحدث في السينما", rating: "الأعلى تقييماً", votes: "الأكثر تصويتاً", seen: "آخر ما وصل" };
   $("listTitle").textContent = (state.mine ? "قائمتي • " : "") + (state.genre ? genreAr(state.genre) + " • " : "") + titles[state.sort];
   $("listCount").textContent = ar(list.length) + " فيلم";
   $("grid").innerHTML = list.length ? list.map(card).join("") :
@@ -316,7 +351,7 @@ function openMovie(id) {
             ${m.rating ? `<div class="stat imdb"><b>★ ${ar(m.rating.toFixed(1))}</b>IMDb • ${votes(m.votes)} صوت</div>` : ""}
             ${m.metascore ? `<div class="stat"><b>${ar(m.metascore)}</b>Metascore</div>` : ""}
             <div class="stat"><b>#${ar(m.rank > 100 ? m.rank - 100 : m.rank)}</b>${m.rank > 100 ? "في المتجر السعودي" : "الأكثر طلباً"}</div>
-            ${m.released ? `<div class="stat"><b>${since(m.released)}</b>${fmtDate(m.released)}</div>` : ""}
+            ${m.digital ? `<div class="stat"><b>${since(m.digital)}</b>نزل رقمياً</div>` : ""}
           </div>
           <div class="btns">
             <button class="btn primary" data-copy="${esc(m.itunesId)}">📋 نسخ الاسم</button>
@@ -329,8 +364,15 @@ function openMovie(id) {
     </div>
     <div class="sheet-body">
       <div>
+        <h5>مواعيد الإصدار</h5>
+        <div class="dates">
+          ${dateRow("🎬", "السينما", cinemaDate(m), "", true)}
+          ${dateRow("📺", "رقمي", m.digital, m.digital ? `<span class="fmt">WEB</span>` : "", !!m.tmdb)}
+          ${dateRow("💿", "أقراص", m.physical, (m.physicalFormats || []).map(f => `<span class="fmt">${esc(f)}</span>`).join(""), !!m.tmdb)}
+        </div>
         ${m.trailer ? `<h5>الإعلان</h5><video controls preload="none" poster="${esc(m.poster)}" src="${esc(m.trailer)}"></video>` : ""}
         <h5 style="margin-top:16px">القصة</h5>
+        ${m.overviewAr ? `<p class="ar-plot">${esc(m.overviewAr)}</p>` : ""}
         <p>${esc(m.plot || m.summary)}</p>
         ${m.summary && m.plot ? `<h5>وصف المتجر</h5><p>${esc(m.summary)}</p>` : ""}
       </div>
@@ -339,7 +381,7 @@ function openMovie(id) {
         ${m.cast?.length ? `<h5>البطولة</h5><div class="people">${esc(m.cast.join("، "))}</div>` : ""}
         <h5>معلومات</h5>
         <div class="kv">
-          ${m.released ? `<span>الإصدار</span><span>${fmtDate(m.released)}</span>` : ""}
+          ${m.titleAr ? `<span>الاسم بالعربي</span><span>${esc(m.titleAr)}</span>` : ""}
           ${m.runtime ? `<span>المدة</span><span>${runtime(m.runtime)}</span>` : ""}
           ${m.certificate ? `<span>التصنيف العمري</span><span>${esc(m.certificate)}</span>` : ""}
           <span>المتجر السعودي</span><span>${m.inSaudiStore ? "✓ متوفر" + (m.saRank ? " (#" + ar(m.saRank) + ")" : "") : "—"}</span>

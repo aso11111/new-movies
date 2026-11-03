@@ -178,6 +178,75 @@ def names(block):
         return []
 
 
+# ---------------- TMDB (release dates + Arabic overview) ----------------
+
+TMDB_KEY = os.environ.get("TMDB_KEY", "").strip()
+TMDB = "https://api.themoviedb.org/3"
+
+
+def tmdb_get(path, **params):
+    params["api_key"] = TMDB_KEY
+    return get(TMDB + path + "?" + urllib.parse.urlencode(params), tries=2)
+
+
+def formats_from(notes):
+    text = " ".join(notes).lower()
+    out = []
+    if "4k" in text or "uhd" in text or "ultra hd" in text:
+        out.append("4K UHD")
+    if "blu" in text:
+        out.append("Blu-ray")
+    if "dvd" in text:
+        out.append("DVD")
+    return out
+
+
+def release_info(rd):
+    """From TMDB release_dates: pick US (fallback GB/CA) dates per type."""
+    by_country = {r["iso_3166_1"]: r["release_dates"] for r in (rd or {}).get("results", [])}
+    info = {}
+    for country in ("US", "GB", "CA", "AU"):
+        dates = by_country.get(country)
+        if not dates:
+            continue
+        def first(types):
+            ds = sorted(d["release_date"][:10] for d in dates if d.get("type") in types and d.get("release_date"))
+            return ds[0] if ds else None
+        if "theatrical" not in info and first((2, 3)):
+            info["theatrical"] = first((2, 3))
+        if "digital" not in info and first((4,)):
+            info["digital"] = first((4,))
+            info["digitalCountry"] = country
+        if "physical" not in info and first((5,)):
+            phys = [d for d in dates if d.get("type") == 5 and d.get("release_date")]
+            info["physical"] = sorted(d["release_date"][:10] for d in phys)[0]
+            info["physicalFormats"] = formats_from([d.get("note") or "" for d in phys])
+            info["physicalCountry"] = country
+    return info
+
+
+def tmdb_enrich(m, h):
+    if not TMDB_KEY or not m.get("imdb"):
+        return
+    tid = h.get("tmdb")
+    if not tid:
+        j = tmdb_get("/find/" + m["imdb"], external_source="imdb_id")
+        res = (j or {}).get("movie_results") or []
+        if not res:
+            return
+        tid = res[0]["id"]
+        h["tmdb"] = tid
+    j = tmdb_get("/movie/%s" % tid, language="ar-SA", append_to_response="release_dates")
+    if not j:
+        return
+    m["tmdb"] = tid
+    m["titleAr"] = j.get("title") if j.get("title") and j.get("title") != j.get("original_title") else None
+    m["overviewAr"] = (j.get("overview") or "").strip() or None
+    if j.get("backdrop_path"):
+        m["backdrop"] = "https://image.tmdb.org/t/p/w1280" + j["backdrop_path"]
+    m.update(release_info(j.get("release_dates")))
+
+
 def main():
     os.makedirs(DATA, exist_ok=True)
     hist_path = os.path.join(DATA, "history.json")
@@ -241,6 +310,16 @@ def main():
         m["directors"] = names(x.get("directors")) or ([m["director"]] if m["director"] else [])
         m["cast"] = names(x.get("cast"))
         m["metascore"] = (((x.get("metacritic") or {}).get("metascore")) or {}).get("score")
+
+    if TMDB_KEY:
+        with ThreadPoolExecutor(8) as ex:
+            list(ex.map(lambda m: tmdb_enrich(m, history[m["itunesId"]]), movies))
+        print("tmdb:", sum(1 for m in movies if m.get("tmdb")),
+              "digital dates:", sum(1 for m in movies if m.get("digital")),
+              "physical:", sum(1 for m in movies if m.get("physical")),
+              "arabic overview:", sum(1 for m in movies if m.get("overviewAr")))
+    else:
+        print("TMDB_KEY not set: skipping release dates")
 
     out = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

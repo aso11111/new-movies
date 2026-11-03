@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch data
+        env:
+          TMDB_KEY: ${{ secrets.TMDB_KEY }}
         run: python scripts/fetch.py | tee fetch.log
       - name: Commit
         run: |

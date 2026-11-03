@@ -302,6 +302,11 @@ def notifications(movies, history):
         notify("✅ تنبيهات الأفلام اشتغلت", "بيوصلك تنبيه إذا نزل فيلم على 4K أو دخل فيلم تقييمه %.1f أو أكثر" % HIGH_RATING,
                {"itunesId": "", "poster": ""})
         return
+    # quiet hours (Riyadh, UTC+3): 23:00 - 09:00 — events wait for the next daytime run
+    riyadh_hour = (datetime.now(timezone.utc).hour + 3) % 24
+    if riyadh_hour >= 23 or riyadh_hour < 9:
+        print("quiet hours (Riyadh %d:00): %d notifications waiting" % (riyadh_hour, len(new)))
+        return
     count = 0
     for key, title, msg, m in new[:8]:   # cap per run
         if notify(title, msg, m):

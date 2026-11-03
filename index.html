@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b0d12">
+<title>أفلام نزلت رقمياً</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0d12;
+    --panel: #141821;
+    --panel2: #1b2030;
+    --line: #262c3d;
+    --text: #eef1f7;
+    --muted: #8d95a8;
+    --accent: #f5c518;      /* IMDb yellow */
+    --accent2: #5ec8ff;
+    --good: #3ddc84;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); }
+  body { font-family: "Readex Pro", system-ui, sans-serif; font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  .wrap { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+
+  /* ---------- hero ---------- */
+  .hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); }
+  .hero-bg { position: absolute; inset: -40px; background-size: cover; background-position: center; filter: blur(38px) saturate(1.2); opacity: .35; transform: scale(1.1); }
+  .hero-shade { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 4%, rgba(11,13,18,.55) 60%, rgba(11,13,18,.75)); }
+  .hero-inner { position: relative; display: flex; gap: 28px; align-items: flex-end; padding: 34px 0 30px; }
+  .hero img { width: 170px; aspect-ratio: 2/3; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,.6); flex-shrink: 0; cursor: pointer; }
+  .brand { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 18px; position: relative; }
+  .brand h1 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: .2px; }
+  .brand h1 span { color: var(--accent2); }
+  .updated { color: var(--muted); font-size: 12.5px; }
+  .hero-tag { display: inline-block; background: rgba(245,197,24,.15); color: var(--accent); font-size: 12px; padding: 3px 10px; border-radius: 99px; margin-bottom: 8px; }
+  .hero h2 { margin: 0 0 6px; font-size: clamp(24px, 3.4vw, 40px); line-height: 1.2; font-weight: 700; direction: ltr; text-align: right; }
+  .hero .meta { color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+  .hero p { margin: 10px 0 14px; max-width: 760px; color: #c7cddb; direction: ltr; text-align: left; font-size: 14px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 8px; }
+  .btn { border: 1px solid var(--line); background: var(--panel2); padding: 8px 14px; border-radius: 10px; font-size: 14px; display: inline-flex; align-items: center; gap: 6px; text-decoration: none; transition: .15s; }
+  .btn:hover { border-color: #3a4360; background: #222941; }
+  .btn.primary { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 600; }
+  .btn.primary:hover { filter: brightness(1.05); }
+  .btn.on { background: rgba(61,220,132,.15); border-color: rgba(61,220,132,.5); color: var(--good); }
+
+  /* ---------- toolbar ---------- */
+  .toolbar { position: sticky; top: 0; z-index: 20; background: rgba(11,13,18,.88); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 12px 0; }
+  .search { flex: 1 1 220px; display: flex; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 0 12px; }
+  .search input { flex: 1; background: none; border: 0; outline: 0; color: var(--text); font: inherit; padding: 9px 8px; }
+  select { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; font: inherit; }
+  .toggle { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; font-size: 14px; }
+  .toggle.on { border-color: var(--accent2); color: var(--accent2); background: rgba(94,200,255,.1); }
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 0 0 12px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { white-space: nowrap; background: var(--panel); border: 1px solid var(--line); border-radius: 99px; padding: 5px 14px; font-size: 13.5px; }
+  .chip.on { background: var(--text); color: #111; border-color: var(--text); }
+  .chip small { color: var(--muted); margin-inline-start: 4px; }
+  .chip.on small { color: #555; }
+
+  /* ---------- grid ---------- */
+  .section-title { display: flex; align-items: baseline; gap: 10px; margin: 26px 0 14px; }
+  .section-title h3 { margin: 0; font-size: 18px; font-weight: 600; }
+  .section-title span { color: var(--muted); font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); gap: 22px 18px; padding-bottom: 60px; }
+  .card { position: relative; cursor: pointer; }
+  .poster { position: relative; aspect-ratio: 2/3; border-radius: var(--radius); overflow: hidden; background: var(--panel2); box-shadow: 0 6px 18px rgba(0,0,0,.35); transition: transform .18s, box-shadow .18s; }
+  .card:hover .poster { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(0,0,0,.55); }
+  .poster img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .badge { position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,.72); backdrop-filter: blur(6px); border-radius: 8px; padding: 2px 8px; font-size: 13px; font-weight: 600; display: flex; gap: 4px; align-items: center; direction: ltr; }
+  .badge b { color: var(--accent); }
+  .new { position: absolute; top: 8px; left: 8px; background: var(--good); color: #062; font-size: 11.5px; font-weight: 700; border-radius: 6px; padding: 1px 7px; }
+  .saved { position: absolute; bottom: 8px; left: 8px; background: rgba(0,0,0,.72); border-radius: 8px; padding: 2px 7px; font-size: 13px; }
+  .rank { position: absolute; bottom: 6px; right: 10px; font-size: 34px; font-weight: 700; color: rgba(255,255,255,.92); text-shadow: 0 2px 10px rgba(0,0,0,.8); line-height: 1; }
+  .card h4 { margin: 10px 2px 2px; font-size: 14.5px; font-weight: 500; direction: ltr; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card .sub { margin: 0 2px; color: var(--muted); font-size: 12.5px; }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; }
+
+  /* ---------- modal ---------- */
+  .modal { position: fixed; inset: 0; z-index: 50; display: none; }
+  .modal.open { display: block; }
+  .scrim { position: absolute; inset: 0; background: rgba(4,5,8,.78); backdrop-filter: blur(4px); }
+  .sheet { position: relative; max-width: 980px; margin: 4vh auto; max-height: 92vh; overflow: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 30px 80px rgba(0,0,0,.6); }
+  .sheet-head { position: relative; overflow: hidden; }
+  .sheet-head .bg { position: absolute; inset: -30px; background-size: cover; background-position: center; filter: blur(30px); opacity: .35; }
+  .sheet-head .shade { position: absolute; inset: 0; background: linear-gradient(to top, var(--panel), rgba(20,24,33,.6)); }
+  .sheet-top { position: relative; display: flex; gap: 22px; padding: 26px; }
+  .sheet-top img { width: 200px; aspect-ratio: 2/3; object-fit: cover; border-radius: 12px; flex-shrink: 0; box-shadow: 0 14px 40px rgba(0,0,0,.5); }
+  .sheet h2 { margin: 0 0 6px; font-size: 28px; direction: ltr; text-align: right; line-height: 1.25; }
+  .close { position: absolute; top: 14px; left: 14px; z-index: 2; width: 36px; height: 36px; border-radius: 50%; border: 0; background: rgba(0,0,0,.5); font-size: 18px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 16px; }
+  .stat { background: rgba(0,0,0,.35); border: 1px solid var(--line); border-radius: 10px; padding: 6px 12px; font-size: 13px; }
+  .stat b { display: block; font-size: 17px; }
+  .stat.imdb b { color: var(--accent); }
+  .sheet-body { padding: 0 26px 26px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 26px; }
+  .sheet-body h5 { margin: 0 0 6px; font-size: 13px; color: var(--muted); font-weight: 500; }
+  .sheet-body p { margin: 0 0 16px; direction: ltr; text-align: left; color: #d3d8e4; font-size: 14px; }
+  .people { direction: ltr; text-align: right; font-size: 14px; margin-bottom: 14px; }
+  video { width: 100%; border-radius: 12px; background: #000; aspect-ratio: 16/9; }
+  .kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 13.5px; }
+  .kv span:nth-child(odd) { color: var(--muted); }
+  .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(20px); opacity: 0; background: var(--good); color: #052; font-weight: 600; padding: 10px 18px; border-radius: 10px; transition: .25s; z-index: 99; pointer-events: none; }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  @media (max-width: 760px) {
+    .hero-inner { flex-direction: column; align-items: flex-start; }
+    .hero img { width: 130px; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 18px 12px; }
+    .sheet { margin: 0; max-height: 100vh; height: 100vh; border-radius: 0; }
+    .sheet-top { flex-direction: column; }
+    .sheet-top img { width: 150px; }
+    .sheet-body { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero" id="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-shade"></div>
+  <div class="wrap">
+    <div class="brand">
+      <h1>🎬 أفلام <span>نزلت رقمياً</span></h1>
+      <div class="updated" id="updated"></div>
+    </div>
+    <div class="hero-inner" id="heroInner"></div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="wrap">
+    <div class="bar">
+      <label class="search">🔍<input id="q" type="search" placeholder="ابحث باسم الفيلم أو الممثل أو المخرج…"></label>
+      <select id="sort" aria-label="الترتيب">
+        <option value="rank">الأكثر طلباً</option>
+        <option value="released">الأحدث إصداراً</option>
+        <option value="rating">الأعلى تقييماً</option>
+        <option value="votes">الأكثر تصويتاً</option>
+        <option value="seen">آخر ما وصل</option>
+      </select>
+      <button class="toggle" id="tRecent" title="أفلام صدرت آخر ٦ شهور">🆕 الحديثة فقط</button>
+      <button class="toggle" id="tSa" title="متوفر في متجر iTunes السعودي">🇸🇦 المتجر السعودي</button>
+      <button class="toggle" id="tMine">📥 قائمتي <span id="mineCount"></span></button>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="section-title"><h3 id="listTitle">كل الأفلام</h3><span id="listCount"></span></div>
+  <div class="grid" id="grid"></div>
+</main>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="scrim" data-close></div>
+  <div class="sheet" role="dialog" aria-modal="true" id="sheet"></div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const GENRES = {
+  "Action & Adventure": "أكشن", "Horror": "رعب", "Thriller": "إثارة", "Comedy": "كوميدي", "Drama": "دراما",
+  "Kids & Family": "عائلي", "Sci-Fi & Fantasy": "خيال علمي", "Romance": "رومانسي", "Documentary": "وثائقي",
+  "Anime": "أنمي", "Musicals": "موسيقي", "Music": "موسيقي", "Western": "غربي", "Independent": "مستقل",
+  "Sports": "رياضي", "Holiday": "مواسم", "Classics": "كلاسيكي", "Special Interest": "منوع", "Foreign": "أجنبي",
+};
+const MONTHS = ["يناير","فبراير","مارس","أبريل","مايو","يونيو","يوليو","أغسطس","سبتمبر","أكتوبر","نوفمبر","ديسمبر"];
+const ar = n => String(n).replace(/\d/g, d => "٠١٢٣٤٥٦٧٨٩"[d]);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $ = id => document.getElementById(id);
+
+let ALL = [], bootstrap = "", state = { q: "", genre: "", sort: "rank", recent: false, sa: false, mine: false };
+
+/* ----- my list (stored only in this browser) ----- */
+const store = {
+  get() { try { return JSON.parse(localStorage.getItem("myList") || "[]"); } catch { return []; } },
+  set(v) { try { localStorage.setItem("myList", JSON.stringify(v)); } catch {} },
+};
+let mine = new Set(store.get());
+function toggleMine(id) {
+  mine.has(id) ? mine.delete(id) : mine.add(id);
+  store.set([...mine]);
+  $("mineCount").textContent = mine.size ? "(" + ar(mine.size) + ")" : "";
+}
+
+/* ----- helpers ----- */
+function fmtDate(s) { if (!s) return ""; const [y, m, d] = s.split("-").map(Number); return ar(d) + " " + MONTHS[m - 1] + " " + ar(y); }
+function daysAgo(s) { return s ? Math.floor((Date.now() - new Date(s + "T00:00:00Z")) / 864e5) : 9999; }
+function since(s) {
+  const d = daysAgo(s);
+  if (d < 0) return "قريباً";
+  if (d === 0) return "اليوم";
+  if (d === 1) return "أمس";
+  if (d < 30) return "قبل " + ar(d) + " يوم";
+  const m = Math.round(d / 30);
+  if (m <= 1) return "قبل شهر";
+  if (m === 2) return "قبل شهرين";
+  if (m < 12) return "قبل " + ar(m) + (m <= 10 ? " شهور" : " شهر");
+  const y = Math.round(d / 365);
+  return y <= 1 ? "قبل سنة" : y === 2 ? "قبل سنتين" : "قبل " + ar(y) + " سنوات";
+}
+function runtime(min) { if (!min) return ""; const h = Math.floor(min / 60), m = min % 60; return h ? ar(h) + "س " + (m ? ar(m) + "د" : "") : ar(m) + " دقيقة"; }
+function votes(v) { if (!v) return ""; return v >= 1e6 ? ar((v / 1e6).toFixed(1)) + " مليون" : v >= 1e3 ? ar(Math.round(v / 1e3)) + " ألف" : ar(v); }
+function isNewArrival(m) { return m.firstSeen && m.firstSeen > bootstrap && daysAgo(m.firstSeen) <= 7; }
+function isRecent(m) { return daysAgo(m.released) <= 183; }
+function copyText(m) { return m.title + (m.year ? " (" + m.year + ")" : ""); }
+function imdbUrl(m) { return m.imdb ? "https://www.imdb.com/title/" + m.imdb + "/" : "https://www.imdb.com/find/?s=tt&q=" + encodeURIComponent(m.title); }
+function genreAr(g) { return GENRES[g] || g; }
+
+function toast(t) { const el = $("toast"); el.textContent = t; el.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove("show"), 1800); }
+async function copy(m) {
+  const t = copyText(m);
+  try { await navigator.clipboard.writeText(t); }
+  catch { const ta = document.createElement("textarea"); ta.value = t; document.body.appendChild(ta); ta.select(); document.execCommand("copy"); ta.remove(); }
+  toast("✓ تم النسخ: " + t);
+}
+
+/* ----- rendering ----- */
+function renderHero(m) {
+  if (!m) return;
+  $("heroBg").style.backgroundImage = `url("${m.poster}")`;
+  $("heroInner").innerHTML = `
+    <img src="${esc(m.poster)}" alt="" data-open="${esc(m.itunesId)}">
+    <div>
+      <div class="hero-tag">🏆 الأول في قائمة الأكثر طلباً</div>
+      <h2>${esc(m.title)}</h2>
+      <div class="meta">
+        ${m.rating ? `<span>⭐ <b style="color:var(--accent)">${ar(m.rating.toFixed(1))}</b></span>` : ""}
+        ${m.year ? `<span>${ar(m.year)}</span>` : ""}
+        <span>${esc(genreAr(m.genre))}</span>
+        ${m.runtime ? `<span>${runtime(m.runtime)}</span>` : ""}
+        ${m.certificate ? `<span>${esc(m.certificate)}</span>` : ""}
+      </div>
+      <p>${esc(m.plot || m.summary)}</p>
+      <div class="btns">
+        <button class="btn primary" data-open="${esc(m.itunesId)}">▶ الإعلان والتفاصيل</button>
+        <button class="btn" data-copy="${esc(m.itunesId)}">📋 نسخ الاسم</button>
+        <button class="btn ${mine.has(m.itunesId) ? "on" : ""}" data-mine="${esc(m.itunesId)}">${mine.has(m.itunesId) ? "✓ في قائمتي" : "📥 أضف لقائمتي"}</button>
+      </div>
+    </div>`;
+}
+
+function renderChips(list) {
+  const counts = {};
+  list.forEach(m => counts[m.genre] = (counts[m.genre] || 0) + 1);
+  const order = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  $("chips").innerHTML = [`<button class="chip ${state.genre ? "" : "on"}" data-genre="">الكل<small>${ar(list.length)}</small></button>`]
+    .concat(order.map(g => `<button class="chip ${state.genre === g ? "on" : ""}" data-genre="${esc(g)}">${esc(genreAr(g))}<small>${ar(counts[g])}</small></button>`))
+    .join("");
+}
+
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  let list = ALL.filter(m =>
+    (!state.recent || isRecent(m)) &&
+    (!state.sa || m.inSaudiStore) &&
+    (!state.mine || mine.has(m.itunesId)));
+  const base = list;
+  if (state.genre) list = list.filter(m => m.genre === state.genre);
+  if (q) list = list.filter(m => [m.title, m.directors?.join(" "), m.cast?.join(" "), m.director].join(" ").toLowerCase().includes(q));
+  const by = {
+    rank: (a, b) => a.rank - b.rank,
+    released: (a, b) => (b.released || "").localeCompare(a.released || ""),
+    rating: (a, b) => (b.rating || 0) - (a.rating || 0) || (b.votes || 0) - (a.votes || 0),
+    votes: (a, b) => (b.votes || 0) - (a.votes || 0),
+    seen: (a, b) => (b.firstSeen || "").localeCompare(a.firstSeen || "") || a.rank - b.rank,
+  }[state.sort];
+  return { base, list: list.slice().sort(by) };
+}
+
+function card(m) {
+  return `<article class="card" data-open="${esc(m.itunesId)}">
+    <div class="poster">
+      <img loading="lazy" src="${esc(m.poster)}" alt="${esc(m.title)}">
+      ${m.rating ? `<div class="badge"><b>★</b>${m.rating.toFixed(1)}</div>` : ""}
+      ${isNewArrival(m) ? `<div class="new">وصل جديد</div>` : ""}
+      ${mine.has(m.itunesId) ? `<div class="saved">📥</div>` : ""}
+      ${state.sort === "rank" && m.rank <= 10 ? `<div class="rank">${ar(m.rank)}</div>` : ""}
+    </div>
+    <h4 title="${esc(m.title)}">${esc(m.title)}</h4>
+    <div class="sub">${[m.year ? ar(m.year) : "", genreAr(m.genre), m.runtime ? runtime(m.runtime) : ""].filter(Boolean).join(" • ")}</div>
+  </article>`;
+}
+
+function render() {
+  const { base, list } = filtered();
+  renderChips(base);
+  const titles = { rank: "الأكثر طلباً", released: "الأحدث إصداراً", rating: "الأعلى تقييماً", votes: "الأكثر تصويتاً", seen: "آخر ما وصل" };
+  $("listTitle").textContent = (state.mine ? "قائمتي • " : "") + (state.genre ? genreAr(state.genre) + " • " : "") + titles[state.sort];
+  $("listCount").textContent = ar(list.length) + " فيلم";
+  $("grid").innerHTML = list.length ? list.map(card).join("") :
+    `<div class="empty">${state.mine ? "قائمتك فاضية — افتح أي فيلم واضغط «أضف لقائمتي»" : "ما فيه أفلام تطابق البحث"}</div>`;
+}
+
+function openMovie(id) {
+  const m = ALL.find(x => x.itunesId === id);
+  if (!m) return;
+  const inMine = mine.has(m.itunesId);
+  $("sheet").innerHTML = `
+    <button class="close" data-close aria-label="إغلاق">✕</button>
+    <div class="sheet-head">
+      <div class="bg" style="background-image:url('${esc(m.poster)}')"></div><div class="shade"></div>
+      <div class="sheet-top">
+        <img src="${esc(m.poster)}" alt="">
+        <div>
+          <h2>${esc(m.title)}</h2>
+          <div class="meta" style="color:var(--muted)">${[m.year ? ar(m.year) : "", genreAr(m.genre), m.runtime ? runtime(m.runtime) : "", m.certificate || ""].filter(Boolean).map(esc).join(" • ")}</div>
+          <div class="stats">
+            ${m.rating ? `<div class="stat imdb"><b>★ ${ar(m.rating.toFixed(1))}</b>IMDb • ${votes(m.votes)} صوت</div>` : ""}
+            ${m.metascore ? `<div class="stat"><b>${ar(m.metascore)}</b>Metascore</div>` : ""}
+            <div class="stat"><b>#${ar(m.rank > 100 ? m.rank - 100 : m.rank)}</b>${m.rank > 100 ? "في المتجر السعودي" : "الأكثر طلباً"}</div>
+            ${m.released ? `<div class="stat"><b>${since(m.released)}</b>${fmtDate(m.released)}</div>` : ""}
+          </div>
+          <div class="btns">
+            <button class="btn primary" data-copy="${esc(m.itunesId)}">📋 نسخ الاسم</button>
+            <a class="btn" href="${esc(imdbUrl(m))}" target="_blank" rel="noopener">IMDb ↗</a>
+            <button class="btn ${inMine ? "on" : ""}" data-mine="${esc(m.itunesId)}">${inMine ? "✓ في قائمتي" : "📥 أضف لقائمتي"}</button>
+            ${m.itunes ? `<a class="btn" href="${esc(m.itunes)}" target="_blank" rel="noopener">iTunes ↗</a>` : ""}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sheet-body">
+      <div>
+        ${m.trailer ? `<h5>الإعلان</h5><video controls preload="none" poster="${esc(m.poster)}" src="${esc(m.trailer)}"></video>` : ""}
+        <h5 style="margin-top:16px">القصة</h5>
+        <p>${esc(m.plot || m.summary)}</p>
+        ${m.summary && m.plot ? `<h5>وصف المتجر</h5><p>${esc(m.summary)}</p>` : ""}
+      </div>
+      <div>
+        ${m.directors?.length ? `<h5>الإخراج</h5><div class="people">${esc(m.directors.join("، "))}</div>` : ""}
+        ${m.cast?.length ? `<h5>البطولة</h5><div class="people">${esc(m.cast.join("، "))}</div>` : ""}
+        <h5>معلومات</h5>
+        <div class="kv">
+          ${m.released ? `<span>الإصدار</span><span>${fmtDate(m.released)}</span>` : ""}
+          ${m.runtime ? `<span>المدة</span><span>${runtime(m.runtime)}</span>` : ""}
+          ${m.certificate ? `<span>التصنيف العمري</span><span>${esc(m.certificate)}</span>` : ""}
+          <span>المتجر السعودي</span><span>${m.inSaudiStore ? "✓ متوفر" + (m.saRank ? " (#" + ar(m.saRank) + ")" : "") : "—"}</span>
+          ${m.price ? `<span>شراء (أمريكي)</span><span>${esc(m.price)}</span>` : ""}
+          ${m.rentalPrice ? `<span>إيجار (أمريكي)</span><span>${esc(m.rentalPrice)}</span>` : ""}
+          ${m.firstSeen ? `<span>دخل القائمة</span><span>${fmtDate(m.firstSeen)}</span>` : ""}
+        </div>
+      </div>
+    </div>`;
+  $("modal").classList.add("open");
+  $("modal").setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+  history.replaceState(null, "", "#" + m.itunesId);
+}
+function closeMovie() {
+  $("modal").classList.remove("open");
+  $("modal").setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
+  $("sheet").querySelector("video")?.pause();
+  history.replaceState(null, "", location.pathname);
+}
+
+/* ----- events ----- */
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-open],[data-copy],[data-mine],[data-close],[data-genre]");
+  if (!t) return;
+  if (t.hasAttribute("data-close")) return closeMovie();
+  if (t.dataset.copy) { e.stopPropagation(); return copy(ALL.find(m => m.itunesId === t.dataset.copy)); }
+  if (t.dataset.mine) {
+    e.stopPropagation(); toggleMine(t.dataset.mine);
+    const on = mine.has(t.dataset.mine);
+    document.querySelectorAll(`[data-mine="${t.dataset.mine}"]`).forEach(b => { b.classList.toggle("on", on); b.textContent = on ? "✓ في قائمتي" : "📥 أضف لقائمتي"; });
+    toast(on ? "📥 انضاف لقائمتك" : "انشال من قائمتك");
+    return render();
+  }
+  if (t.hasAttribute("data-genre")) { state.genre = t.dataset.genre; return render(); }
+  if (t.dataset.open) return openMovie(t.dataset.open);
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeMovie(); });
+$("q").addEventListener("input", e => { state.q = e.target.value; render(); });
+$("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+for (const [id, key] of [["tRecent", "recent"], ["tSa", "sa"], ["tMine", "mine"]]) {
+  $(id).addEventListener("click", () => { state[key] = !state[key]; $(id).classList.toggle("on", state[key]); render(); });
+}
+
+/* ----- load ----- */
+fetch("data/movies.json?" + Date.now()).then(r => r.json()).then(d => {
+  ALL = d.movies.filter(m => m.poster);
+  bootstrap = ALL.reduce((min, m) => !min || (m.firstSeen && m.firstSeen < min) ? m.firstSeen : min, "");
+  const u = new Date(d.updated);
+  $("updated").textContent = "آخر تحديث: " + u.toLocaleString("ar-SA-u-nu-arab-ca-gregory", { timeZone: "Asia/Riyadh", day: "numeric", month: "long", hour: "numeric", minute: "2-digit" });
+  $("mineCount").textContent = mine.size ? "(" + ar(mine.size) + ")" : "";
+  renderHero(ALL.slice().sort((a, b) => a.rank - b.rank)[0]);
+  render();
+  if (location.hash.length > 1) openMovie(location.hash.slice(1));
+}).catch(() => { $("grid").innerHTML = `<div class="empty">تعذر تحميل البيانات</div>`; });
+</script>
+</body>
+</html>

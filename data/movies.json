@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:53:00Z",
+ "updated": "2026-11-03T22:54:27Z",
  "count": 168,
  "movies": [
   {
@@ -41,7 +41,14 @@
     "Will Merrick",
     "Andrea Miltner"
    ],
-   "metascore": 79
+   "metascore": 79,
+   "tmdb": 1423191,
+   "titleAr": "الشر المقيم",
+   "overviewAr": "يجد \"برايان\"، ساعي نقلٍ طبي، نفسه عالقًا في كابوس مرعب، حين تتحول ليلة واحدة إلى فوضى عارمة، ويصبح البقاء على قيد الحياة معركته الوحيدة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+   "theatrical": "2026-09-18",
+   "digital": "2026-11-03",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6808034868",
@@ -85,7 +92,14 @@
     "Ismael Cruz Cordova",
     "Irina Dvorovenko"
    ],
-   "metascore": 44
+   "metascore": 44,
+   "tmdb": 1283515,
+   "titleAr": "فيريتي",
+   "overviewAr": "مقتبس من رواية كولين هوفر الأكثر مبيعًا، يتبع هذا الفيلم النفسي الكاتبة الشهيرة فيريتي كروفورد ولوين آشلي، وهي كاتبة تكافح وتنتقل إلى ضيعة كروفورد النائية للكتابة الشبح من أجل فيريتي.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
+   "theatrical": "2026-10-02",
+   "digital": "2026-10-27",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6793590242",
@@ -127,7 +141,21 @@
     "Jacob Batalon",
     "Sadie Sink"
    ],
-   "metascore": 66
+   "metascore": 66,
+   "tmdb": 969681,
+   "titleAr": "سبايدر-مان: يوم جديد",
+   "overviewAr": "بينما يواصل \"بيتر باركر\" حماية المدينة بصفته \"الرجل العنكبوت\" في عالمٍ لم يعد يتذكره أحد، يجد نفسه وحيدًا وهو يشاهد أصدقاءه القدامى يمضون في حياتهم من دونه. ومع تصاعد الضغوط، يبدأ بالتغير بطريقة قد تعجز قواه عن كبحها. لكن هذا التحول قد يكون أمله الوحيد لمواجهة تهديدٍ غامض وخطير يلوح في الأفق، عدو يمتلك قوة مرعبة لا يستطيع أحد حتى رؤيته، ويهدد المدينة وكل من يهتم \"بيتر\" لأمرهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+   "theatrical": "2026-07-31",
+   "digital": "2026-10-06",
+   "digitalCountry": "US",
+   "physical": "2026-12-15",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1748285955",
@@ -172,7 +200,21 @@
     "Munetaka Aoki",
     "Hidetaka Yoshioka"
    ],
-   "metascore": 81
+   "metascore": 81,
+   "tmdb": 940721,
+   "titleAr": "غودزيلا ناقص واحد",
+   "overviewAr": "في \"اليابان\" بعد الحرب، ينضم طيار حربي سابق يعاني من الصدمة إلى جهود المدنيين في مواجهة وحش عملاق مطور نوويًّا يهاجم شواطئهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/oHBhHoNe59VH6bUMazDtJmWOFSS.jpg",
+   "theatrical": "2023-12-01",
+   "digital": "2024-06-01",
+   "digitalCountry": "US",
+   "physical": "2024-12-02",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "6788867495",
@@ -214,7 +256,21 @@
     "Jordan Alexa Davis",
     "P.J. Byrne"
    ],
-   "metascore": 69
+   "metascore": 69,
+   "tmdb": 1101383,
+   "titleAr": "نهاية شارع أوك",
+   "overviewAr": "بعد حدث كوني غامض يقتلع شارع أوك من ضواحي المدينة وينقل الحي بأكمله إلى مكان مجهول، تكتشف عائلة \"بلات\" أن بقاءها على قيد الحياة يعتمد على تماسك أفرادها معًا، بينما يحاولون التأقلم مع محيطهم الذي أصبح غريبًا تمامًا عن ذي قبل.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+   "theatrical": "2026-08-14",
+   "digital": "2026-09-15",
+   "digitalCountry": "US",
+   "physical": "2026-11-03",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6803706922",
@@ -257,7 +313,14 @@
     "Aimée Cassettari",
     "Ema Cavolli"
    ],
-   "metascore": 44
+   "metascore": 44,
+   "tmdb": 1302904,
+   "titleAr": "السحر العملي 2",
+   "overviewAr": "عائلة من الساحرات تمتد عبر أجيال، تلاحقها منذ قرون لعنة تحرم نساءها من الحب. وتحاول نساء العائلة كسر اللعنة نهائيًا، فيضطررن إلى مواجهة أسرار مظلمة دفينة، والتضحية من أجل بعضهن البعض.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
+   "theatrical": "2026-09-11",
+   "digital": "2026-10-13",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6805025142",
@@ -302,7 +365,21 @@
     "Martha Kelly",
     "Luis Guzmán"
    ],
-   "metascore": 77
+   "metascore": 77,
+   "tmdb": 1204680,
+   "titleAr": "كايوتي ضد أكمي",
+   "overviewAr": "بعد أن خذلته منتجات شركة \"أكمي\" مرات عديدة في سعيه الحثيث وراء \"رود رنر\"، قرر وايل إي. كايوتي توكيل محامٍ متخصص في الإعلانات لرفع دعوى قضائية ضد شركة \"أكمي\".",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/rueyXwlewVPAP5NkqCUJx4RjhqB.jpg",
+   "theatrical": "2026-08-28",
+   "digital": "2026-09-29",
+   "digitalCountry": "US",
+   "physical": "2026-12-01",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6812633424",
@@ -345,7 +422,21 @@
     "Allison Janney",
     "Benedict Wong"
    ],
-   "metascore": 49
+   "metascore": 49,
+   "tmdb": 1384216,
+   "titleAr": "نجوم الكلاب",
+   "overviewAr": "في عالم ما بعد نهاية الحضارة، يعيش الطيار هيغ مع خبير البقاء بانغلي في ملجأ معزول، لكن إشارة لاسلكية غامضة تدفعه إلى مغادرة مكانه الآمن والانطلاق بحثًا عن الأمل وبقايا الإنسانية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/3k7GzxOdLZkN3eZsuhLi2eRzkXO.jpg",
+   "theatrical": "2026-08-28",
+   "digital": "2026-10-27",
+   "digitalCountry": "US",
+   "physical": "2026-12-01",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6817876384",
@@ -389,7 +480,14 @@
     "Phoebe Bridgers",
     "Victor Brunette"
    ],
-   "metascore": 68
+   "metascore": 68,
+   "tmdb": 1375441,
+   "titleAr": "وقت الذروة",
+   "overviewAr": "في عام 2006، انطلق مقدم برنامج \"To Catch a Predator\" كريس هانسن لصنع تاريخ تلفزيوني، محولاً تحقيقاً سرياً إلى واحدة من أكثر الظواهر الثقافية إثارة للجدل في ذلك العقد.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+   "theatrical": "2026-09-25",
+   "digital": "2026-11-03",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1895945921",
@@ -474,7 +572,14 @@
     "Patton Oswalt",
     "Sergey Zhuravsky"
    ],
-   "metascore": 67
+   "metascore": 67,
+   "tmdb": 1514026,
+   "titleAr": "بادي",
+   "overviewAr": "في عالم برنامج أطفال زاهي الألوان، يقضي مجموعة من الأطفال أيامهم في الغناء والرقص ومساعدة وحيد قرن برتقالي على نشر السعادة، لكن حين يرفض أحدهم المشاركة يغضب وحيد القرن، وتبدأ الشقوق في الظهور في هذا العالم المثالي ظاهريًا.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
+   "theatrical": "2026-08-28",
+   "digital": "2026-10-13",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1307301491",
@@ -522,7 +627,19 @@
     "Renée Victor",
     "Jaime Camil"
    ],
-   "metascore": 81
+   "metascore": 81,
+   "tmdb": 354912,
+   "titleAr": "كوكو",
+   "overviewAr": "الاحتفال بالعمر\r على الرغم من الحظر المحير الذي فرضته عائلته منذ أجيال على الموسيقى ، يحلم ميغيل بأن يصبح موسيقيا بارعا مثل معبوده إرنستو دي لا كروز. في محاولة يائسة لإثبات موهبته ، يجد ميغيل نفسه في أرض الموتى المذهلة والملونة بعد سلسلة غامضة من الأحداث. على طول الطريق ، يلتقي المحتال الساحر هيكتور ، وينطلقان معا في رحلة غير عادية لفتح القصة الحقيقية وراء تاريخ عائلة ميغيل.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+   "theatrical": "2017-11-22",
+   "physical": "2018-02-27",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6796830768",
@@ -565,7 +682,20 @@
     "Brandon Perea",
     "Maisie Richardson-Sellers"
    ],
-   "metascore": 47
+   "metascore": 47,
+   "tmdb": 1291595,
+   "titleAr": null,
+   "overviewAr": "تعيش جِمّا، وهي أم شابة، مع ابنتها في المنزل الذي نشأت فيه، وتكتشف قدرتها على الانتقال إلى «العالم الآخر»، حيث أرواح الموتى والكيانات الشريرة. وعندما تكتشف الكيانات أنها تستطيع جلبها إلى العالم الحقيقي، تصبح جِمّا وابنتها هدفًا لها، ويهدد عالم الموتى بالانتقال إلى عالم البشر",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/p40lmrdI4blcAPZQMTPaiy5v5Ym.jpg",
+   "theatrical": "2026-08-21",
+   "digital": "2026-10-06",
+   "digitalCountry": "US",
+   "physical": "2026-12-01",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6799184988",
@@ -608,7 +738,14 @@
     "Kate Box",
     "Peta Sergeant"
    ],
-   "metascore": 55
+   "metascore": 55,
+   "tmdb": 1377237,
+   "titleAr": "العداء",
+   "overviewAr": "يجد جندي سابق نفسه في سباق محموم مع الزمن عندما تجعله مهمة توصيل طبية بالغة الأهمية، هو وشريكه غير المتوقع، هدفًا لعصابة إجرامية لا ترحم. ومع تحول المهمة إلى مطاردة مميتة، فإن كل منعطف وتأخير ورصاصة تقربهم أكثر من الفشل. وفي ظل الخيانة التي تلاحقهم من كل جانب، يجب عليهم النجاة من المطاردة وإيصال شحنتهم لإنقاذ حياة طفلة صغيرة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
+   "theatrical": "2026-09-07",
+   "digital": "2026-10-13",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6811252847",
@@ -657,7 +794,21 @@
     "Manny Jacinto",
     "Lea Salonga"
    ],
-   "metascore": 74
+   "metascore": 74,
+   "tmdb": 1465063,
+   "titleAr": null,
+   "overviewAr": "في ليلتهما الأخيرة معًا بعد التخرج من الثانوية، تعثر صديقتان مقرّبتان ببوابة غامضة تنقلهما إلى جزيرة خيالية. وحين تكتشفان أن ثمن العودة إلى الديار هو ذكريات صداقتهما كلها، تسابقان الزمن لإيجاد طريق للخروج من الجزيرة قبل أن تنسى كل منهما الأخرى إلى الأبد.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+   "theatrical": "2026-09-25",
+   "digital": "2026-10-27",
+   "digitalCountry": "US",
+   "physical": "2026-12-01",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6805267689",
@@ -700,7 +851,17 @@
     "Josh Lucas",
     "LisaGay Hamilton"
    ],
-   "metascore": 50
+   "metascore": 50,
+   "tmdb": 1380417,
+   "titleAr": "بأي وسيلة كانت",
+   "overviewAr": "في عام ١٩٦٦ بولاية مسيسيبي، يجد عميل فدرالي من ذوي البشرة السمراء، والمعروف بالتزامه الصارم بالقانون، نفسه مضطراً للتحالف مع قاتل مأجور سيء السمعة تابع لمافيا نيويورك. وسط أجواء مشحونة بالعنف العنصري وقمع الحقوق المدنية، ينطلق الثنائي في مهمة خطيرة للتحقيق في جرائم اغتيال قادة الحقوق المدنية، متجاوزين الخطوط القانونية المعتادة لتحقيق العدالة بأي ثمن .",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
+   "theatrical": "2026-09-04",
+   "digital": "2026-10-20",
+   "digitalCountry": "US",
+   "physical": "2026-12-15",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6785562001",
@@ -746,7 +907,14 @@
     "Avi Nash",
     "Lucas Lynggaard Tønnesen"
    ],
-   "metascore": 70
+   "metascore": 70,
+   "tmdb": 1433583,
+   "titleAr": null,
+   "overviewAr": "بعد أن يُفصل صامويل مورفي عن ابنته ويُرسل إلى معسكر عمل قاسٍ خلال فترة الكساد الكبير، يعرض عليه مدير السجن كلانسي الإفراج المبكر مقابل تهريب الذهب عبر برية خطرة، لكن الخيانة والجشع داخل المجموعة تهدد المهمة وحياة مورفي وفرصته في العودة إلى ابنته",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
+   "theatrical": "2026-09-18",
+   "digital": "2026-10-20",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1802100718",
@@ -788,7 +956,19 @@
     "Charles Cyphers",
     "Kyle Richards"
    ],
-   "metascore": 91
+   "metascore": 91,
+   "tmdb": 948,
+   "titleAr": "الهالوين",
+   "overviewAr": "في ليلة عيد الهالوين السوداء وغير المقدسة منذ سنوات ، ذبح مايكل مايرز أخته بوحشية بجرأة باردة. ولكن على مدار الخمسة عشر عامًا الماضية ، كان سكان البلدة ينعمون بالراحة ، مدركين أنه محتجز بأمان في مستشفى للأمراض العقلية - حتى الليلة. الليلة ، يعود مايكل إلى نفس الحي الهادئ ليحيي مقتله المروع مرة أخرى ... ومرة أخرى ... ومرة أخرى. لان هذه ليلة شر. الليلة عيد الهالوين!",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/sHI9xlFRWCJ38AIIfOqnGjuEvXz.jpg",
+   "theatrical": "1978-10-25",
+   "physical": "1997-10-28",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1747079458",
@@ -833,7 +1013,21 @@
     "Munetaka Aoki",
     "Hidetaka Yoshioka"
    ],
-   "metascore": 81
+   "metascore": 81,
+   "tmdb": 940721,
+   "titleAr": "غودزيلا ناقص واحد",
+   "overviewAr": "في \"اليابان\" بعد الحرب، ينضم طيار حربي سابق يعاني من الصدمة إلى جهود المدنيين في مواجهة وحش عملاق مطور نوويًّا يهاجم شواطئهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/oHBhHoNe59VH6bUMazDtJmWOFSS.jpg",
+   "theatrical": "2023-12-01",
+   "digital": "2024-06-01",
+   "digitalCountry": "US",
+   "physical": "2024-12-02",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "6825120884",
@@ -875,7 +1069,14 @@
     "Caitríona Balfe",
     "Charlie Varlet"
    ],
-   "metascore": 71
+   "metascore": 71,
+   "tmdb": 1503762,
+   "titleAr": "العقل والعاطفة",
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
+   "theatrical": "2026-10-14",
+   "digital": "2026-11-03",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1896873728",
@@ -918,7 +1119,14 @@
     "Lukita Maxwell",
     "Avan Jogia"
    ],
-   "metascore": 76
+   "metascore": 76,
+   "tmdb": 1083381,
+   "titleAr": "الغرفة الخلفية",
+   "overviewAr": "يظهر مدخل غريب في الطابق السفلي من صالة عرض الأثاث",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
+   "theatrical": "2026-05-29",
+   "digital": "2026-07-14",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1895068395",
@@ -962,7 +1170,21 @@
     "Jaylen Lyndon Hunter",
     "Judah Edwards"
    ],
-   "metascore": 39
+   "metascore": 39,
+   "tmdb": 936075,
+   "titleAr": "مايكل",
+   "overviewAr": "يروي الفيلم قصة حياة مايكل جاكسون بعيداً عن الموسيقى، متتبعاً رحلته منذ اكتشاف موهبته الاستثنائية كقائد لفرقة \"جاكسون فايف\"، وصولاً إلى الفنان الملهم الذي دفع طموحه الإبداعي سعياً حثيثاً ليصبح أعظم فنان استعراضي في العالم. ومن خلال تسليط الضوء على حياته خارج الأضواء وبعض أكثر عروضه شهرة في بدايات مسيرته المنفردة، يمنح الفيلم الجمهور فرصة لمشاهدة مايكل جاكسون كما لم يروه من قبل. من هنا تبدأ قصته.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+   "theatrical": "2026-04-24",
+   "digital": "2026-06-09",
+   "digitalCountry": "US",
+   "physical": "2026-07-14",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6816251186",
@@ -1006,7 +1228,14 @@
     "Laith Nakli",
     "Adia"
    ],
-   "metascore": 83
+   "metascore": 83,
+   "tmdb": 1437396,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+   "theatrical": "2026-09-25",
+   "digital": "2026-11-03",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "499525501",
@@ -1049,7 +1278,12 @@
     "Ilona Kassai",
     "Imre Csuja"
    ],
-   "metascore": 85
+   "metascore": 85,
+   "tmdb": 49517,
+   "titleAr": null,
+   "overviewAr": "يُستدعى جاسوس مسنّ من أساطير الحرب الباردة من تقاعده ليكشف عميلاً مزدوجاً رفيع المستوى داخل جهاز الاستخبارات، فيعود عبر ماضيه ودهاليز العمل الغامضة بحثاً عن الخائن.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/6ZwscHN0bSIueTVTo6mlTGUUP90.jpg",
+   "theatrical": "2011-12-09"
   },
   {
    "itunesId": "6788028326",
@@ -1097,7 +1331,14 @@
     "Mckenna Grace",
     "William Desrosiers"
    ],
-   "metascore": 47
+   "metascore": 47,
+   "tmdb": 1185806,
+   "titleAr": null,
+   "overviewAr": "تهبط فرقة الإنقاذ من الجراء على جزيرة غامضة تسكنها الديناصورات بعد عاصفة، وحين يتسبب التنقيب المتهور لعمدة جشع في ثوران بركان، تخوض الفرقة أكبر مهمة إنقاذ في تاريخها.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/dY4LyVSvjk9dN20YsxuouaMIMox.jpg",
+   "theatrical": "2026-08-14",
+   "digital": "2026-09-29",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1838662005",
@@ -1140,7 +1381,21 @@
     "Patricia Quinn",
     "Nell Campbell"
    ],
-   "metascore": 65
+   "metascore": 65,
+   "tmdb": 36685,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/54aVU7tnvDKkX6ibzFg6ke03BV.jpg",
+   "theatrical": "1975-09-29",
+   "digital": "2025-10-07",
+   "digitalCountry": "US",
+   "physical": "1990-11-08",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1217957345",
@@ -1182,7 +1437,15 @@
     "Anna Paquin",
     "Kristen Bell"
    ],
-   "metascore": 52
+   "metascore": 52,
+   "tmdb": 41446,
+   "titleAr": "الصرخة 4",
+   "overviewAr": "بعد عشر سنوات، تصير سيدني بريسكوت مؤلفة لكتب التنمية الذاتية، وتعود لمسقط رأسها ضمن جولة ترويج كتابها، وتتواصل من جديد مع الشريف ديوي وجايل اللذان تزوجا، ويتزامن هذا مع عودة الشبح القاتل.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/c5EmNhLQsTTKAyUHULnKYQjlloz.jpg",
+   "theatrical": "2011-04-15",
+   "physical": "2011-10-04",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6799248851",
@@ -1226,7 +1489,19 @@
     "Cameron Britton",
     "Alicia Vikander"
    ],
-   "metascore": 67
+   "metascore": 67,
+   "tmdb": 1058424,
+   "titleAr": "أمل",
+   "overviewAr": "يُكتشف شيء غامض على مشارف بلدة ساحلية نائية. ويجد السكان أنفسهم في صراع يائس من أجل البقاء ضد شيء لم يسبق لهم مواجهته من قبل.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/j96rurZqmBjyY37Fncl3IB0qJNe.jpg",
+   "theatrical": "2026-09-09",
+   "digital": "2026-10-13",
+   "digitalCountry": "US",
+   "physical": "2026-12-28",
+   "physicalFormats": [
+    "Blu-ray"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "210175683",
@@ -1269,7 +1544,17 @@
     "Casper Van Dien",
     "Jeffrey Jones"
    ],
-   "metascore": 65
+   "metascore": 65,
+   "tmdb": 2668,
+   "titleAr": null,
+   "overviewAr": "يتم إرسال المحقق من نيويورك إيشابود كرين إلى سليبي هولو للتحقيق في سلسلة من الوفيات الغامضة التي تم العثور فيها على الضحايا مقطوعة الرأس. لكن السكان المحليين يعتقدون أن الجاني ليس سوى شبح الفارس الأسطوري مقطوع الرأس.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/m8t7K3LcAY7bpyQ7iQ5kGsrcjnh.jpg",
+   "theatrical": "1999-11-19",
+   "physical": "2000-07-24",
+   "physicalFormats": [
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "329144864",
@@ -1312,7 +1597,12 @@
     "Thora Birch",
     "Vinessa Shaw"
    ],
-   "metascore": 43
+   "metascore": 43,
+   "tmdb": 10439,
+   "titleAr": null,
+   "overviewAr": "انها مجرد حفنة من هوكوس بوكوس .\r بعد 300 عام من النوم ، تم إحياء ثلاث ساحرات شقيقات عن طريق الخطأ في سالم في ليلة الهالوين ، والأمر متروك لثلاثة أطفال وصديقهم القطط المكتشف حديثا لوضع حد لعهد الرعب للساحرات مرة واحدة وإلى الأبد.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/ncr6KR7bBF8cps6yZKiTAwClpn1.jpg",
+   "theatrical": "1993-07-16"
   },
   {
    "itunesId": "284480125",
@@ -1360,7 +1650,20 @@
     "Paul Whitehouse",
     "Joanna Lumley"
    ],
-   "metascore": 83
+   "metascore": 83,
+   "tmdb": 3933,
+   "titleAr": null,
+   "overviewAr": "شاب خجول يذهب إلى إحدى الغابات في ليلة زفافه، ليتدرب على الوفاء بعهود الزواج بالغابة، وبعد أن ينتهي، يأخذ خاتمه الذي وضعه في هيكل عظمي لعروس قتلت ليلة زفافها، فتأخذه الى عالم الأموات السفلي ليتزوجها، فيحاول الهروب ليتم زواجه من خطيبته.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/v23fWgJUEt8EMmvn19btIacxP8E.jpg",
+   "theatrical": "2005-09-16",
+   "digital": "2024-08-20",
+   "digitalCountry": "GB",
+   "physical": "2006-02-06",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "6805950597",
@@ -1404,7 +1707,14 @@
     "Sahajak Boonthanakit",
     "Korakod Yensuk"
    ],
-   "metascore": 54
+   "metascore": 54,
+   "tmdb": 1101412,
+   "titleAr": "سقوط 2 : النقطة المميته",
+   "overviewAr": "بعد وفاة شقيقتها، تحاول جاكس تجاوز حزنها بمساعدة صديقة شقيقتها لوس، فتقرر الاثنتان تسلق جبل كوان في تايلاند. لكنهما تتعرضان لانهيار صخري يحاصرهما على لوح ضيق على ارتفاع شاهق، وتتحول الرحلة إلى صراع من أجل البقاء",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+   "theatrical": "2026-09-02",
+   "digital": "2026-10-06",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "281660706",
@@ -1449,7 +1759,17 @@
     "Glenn Shadix",
     "Paul Reubens"
    ],
-   "metascore": 82
+   "metascore": 82,
+   "tmdb": 9479,
+   "titleAr": "كابوس ما قبل عيد الميلاد",
+   "overviewAr": "يقوم جالك سكلينغتون وهو ملك هالويين تاون باختطاف بابا نويل ويخطط لتسليم رؤوس منكمشة وغيرها من الهدايا البشعة للأطفال في صباح عيد الميلاد ولكن مع اقتراب العيد تحاول الدمية سالي صديقة جاك بإحباط مخططاته.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
+   "theatrical": "1993-10-13",
+   "physical": "1994-05-10",
+   "physicalFormats": [
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1896844187",
@@ -1493,7 +1813,21 @@
     "Colman Domingo",
     "Wyatt Russell"
    ],
-   "metascore": 74
+   "metascore": 74,
+   "tmdb": 1275779,
+   "titleAr": "يوم الإفصاح",
+   "overviewAr": "يصبح خبير في الأمن السيبراني مُبلغ عن المخالفات بعد اكتشافه أسرارًا عن كائنات فضائية، فتطاردُه إحدى الشركات. وفي نفس الوقت، تتعاون معه خبيرة أرصاد جوية تواجه ظواهر غريبة ليثبتا وجود حياة تتجاوز فهمنا.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/1e0KDRYKRPHiVNj8yQKYuU2jVyQ.jpg",
+   "theatrical": "2026-06-12",
+   "digital": "2026-07-21",
+   "digitalCountry": "US",
+   "physical": "2026-08-25",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6779829484",
@@ -1538,7 +1872,20 @@
     "Jeff Bridges",
     "Jesse Eisenberg"
    ],
-   "metascore": 70
+   "metascore": 70,
+   "tmdb": 1315772,
+   "titleAr": "المينيون والوحوش",
+   "overviewAr": "هذه هي القصة الصاخبة والمضحكة والحقيقية تمامًا عن كيفية غزو المينيونز لهوليوود، وكيف أصبحوا نجومًا سينمائيين، وخسروا كل شيء، وأطلقوا العنان للوحوش على العالم، ثم تكاتفوا معًا لمحاولة إنقاذ الكوكب من الفوضى التي أحدثوها للتو",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+   "theatrical": "2026-07-01",
+   "digital": "2026-08-11",
+   "digitalCountry": "US",
+   "physical": "2026-09-08",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6815076553",
@@ -1581,7 +1928,14 @@
     "Bokuzō Masana",
     "Tae Kimura"
    ],
-   "metascore": 71
+   "metascore": 71,
+   "tmdb": 1629051,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/o73vpmtXq89bfSUMcAulLVN4TKP.jpg",
+   "theatrical": "2026-09-25",
+   "digital": "2026-10-27",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "277049127",
@@ -1626,7 +1980,18 @@
     "Fred Willard",
     "Sam Lerner"
    ],
-   "metascore": 68
+   "metascore": 68,
+   "tmdb": 9297,
+   "titleAr": "المنزل الوحش",
+   "overviewAr": "يكتشف دي جي هارفارد و، تشاودر وجيني، أن منزل جاره هو في الواقع وحش حي، وهو شرير للغاية. بطبيعة الحال، لا يصدق الكبار هذه القصة إطلاقًا، لذا يقع على عاتق الأصدقاء الثلاثة مهمة إغلاق المنزل قبل سقوط أي ضحايا أبرياء...",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/aDnCTWpWMHcQxOeGWsITmoLuEGy.jpg",
+   "theatrical": "2006-06-30",
+   "physical": "2007-01-07",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "AU"
   },
   {
    "itunesId": "6802507831",
@@ -1669,7 +2034,14 @@
     "Stavros Halkias",
     "Michael Jibrin"
    ],
-   "metascore": 75
+   "metascore": 75,
+   "tmdb": 1329016,
+   "titleAr": "توني",
+   "overviewAr": "شاب في التاسعة عشرة يسافر لقضاء الصيف في بلدة ساحلية، فيجد نفسه بالمصادفة في عالم مطبخ مطعم صاخب فوضوي. ويقضي هناك صيفًا يغير مسار حياته، ويكتشف شغفه الذي سيقوده لاحقًا إلى الشهرة، في قصة مستوحاة من حياة طاهٍ وكاتب حقيقي.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/uQvz6NdyhoWE6dMurFn0BriLIv9.jpg",
+   "theatrical": "2026-08-07",
+   "digital": "2026-09-15",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6801608783",
@@ -1712,7 +2084,14 @@
     "Jason Wong",
     "Simon Kluth"
    ],
-   "metascore": 52
+   "metascore": 52,
+   "tmdb": 1288445,
+   "titleAr": "تمرد",
+   "overviewAr": "تبدأ القصة عندما يتم توريط كول، عميل سابق في القوات الخاصة وضابط شرطة سابق في مدينة نيويورك، في جريمة قتل رجل أعمال ملياردير، ويُتهم كول بقتل صديقه ورئيسه، تيبو، الذي وظف كول كخبير أمني خاص له ، فيضطر للهرب لإثبات براءته والكشف عن مؤامرة دولية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+   "theatrical": "2026-08-21",
+   "digital": "2026-09-08",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6812661487",
@@ -1756,7 +2135,21 @@
     "Tom Hollander",
     "Stephen Dillane"
    ],
-   "metascore": 56
+   "metascore": 56,
+   "tmdb": 977942,
+   "titleAr": "الانتفاضة",
+   "overviewAr": "في خضم الحرب والطاعون اللذين دمرا إنجلترا في القرن الرابع عشر، أشعل فلاح متواضع ثورة، موحداً جيشاً من عامة الشعب لتحدي الحكم الوحشي للملك في معركة يائسة من أجل العدالة والبقاء.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
+   "theatrical": "2026-09-10",
+   "digital": "2026-09-29",
+   "digitalCountry": "US",
+   "physical": "2026-11-03",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "280338635",
@@ -1799,7 +2192,15 @@
     "David Huddleston",
     "Philip Seymour Hoffman"
    ],
-   "metascore": 71
+   "metascore": 71,
+   "tmdb": 115,
+   "titleAr": null,
+   "overviewAr": "يتورط جيفري ليبوسكي، المعروف بلقب «ذا دود»، في مخطط اختطاف بعدما يخلط مجموعة من البلطجية بينه وبين مليونير يحمل الاسم نفسه، فيُطلب منه تسليم فدية مقابل إطلاق سراح زوجة المليونير، لتتحول مهمته إلى سلسلة من الخدع والجرائم والمواقف الغريبة",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/77ElMccPnTMPouRxSdbJ4nEjf69.jpg",
+   "theatrical": "1998-03-06",
+   "physical": "1998-12-31",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6816154927",
@@ -1843,7 +2244,21 @@
     "Junhui Wen",
     "Zhengjie Zhou"
    ],
-   "metascore": null
+   "metascore": null,
+   "tmdb": 1419406,
+   "titleAr": "حافة الظل",
+   "overviewAr": "يختفي طاقم من المجرمين العباقرة ومعهم مليارات، مهربين من القبض عليهم بتفوقهم على نظام المراقبة \"عين السماء\" الهائل. يائسين ومُتخاذلين، تستعين شرطة ماكاو بأسطورة - وونغ تاك تشونغ (جاكي شان)، خبير تعقب متقاعد. يُرشد وونغ الضابط المبتدئ هي تشيوغو (تشانغ زيفنغ)، ويُعيد بناء وحدة مراقبة النخبة. مهمتهم: تعقب \"ملك الذئاب\" المراوغ، فو لونغ شنغ (ليونغ كا فاي توني)، العقل المدبر وراء السرقة. مع اقتراب الشرطة، يُنصب اللصوص فخًا خاصًا بهم. تتصادم العقول، وتُختبر الولاءات، وتبدأ لعبة القط والفأر النهائية...",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
+   "theatrical": "2025-08-22",
+   "digital": "2026-11-03",
+   "digitalCountry": "US",
+   "physical": "2026-02-16",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "300887252",
@@ -1887,7 +2302,19 @@
     "Anthony Heald",
     "Brooke Smith"
    ],
-   "metascore": 86
+   "metascore": 86,
+   "tmdb": 274,
+   "titleAr": "صمت الحملان",
+   "overviewAr": "كلاريس ستارلينج طالبة متفوقة في أكاديمية التدريب التابعة لمكتب التحقيقات الفيدرالي. يريد جاك كروفورد من كلاريس إجراء مقابلة مع الدكتور هانيبال ليكتر ، وهو طبيب نفسي لامع ومختل عقليًا عنيفًا ، ويقضي الحياة خلف القضبان بسبب جرائم قتل وأكل لحوم البشر. يعتقد كروفورد أن ليكتر قد يكون لديه نظرة ثاقبة للقضية وأن ستارلينج ، بصفتها امرأة شابة جذابة ، قد تكون مجرد الطعم لجذبه.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
+   "theatrical": "1991-02-14",
+   "physical": "1992-01-23",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "522395870",
@@ -1929,7 +2356,17 @@
     "Barry Nelson",
     "Philip Stone"
    ],
-   "metascore": 68
+   "metascore": 68,
+   "tmdb": 694,
+   "titleAr": "البريق",
+   "overviewAr": "يقبل كاتب وظيفة حارس شتوي لفندق جبلي معزول، ليعيش فيه مع زوجته وابنه الصغير بعيدًا عن العالم طوال الشتاء، لكنهم لم يكونوا مستعدين للجنون الكامن في أروقة المكان.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg",
+   "theatrical": "1980-05-23",
+   "physical": "1999-06-26",
+   "physicalFormats": [
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6786801261",
@@ -1971,7 +2408,20 @@
     "Rachel Thurow",
     "Mario Valdez"
    ],
-   "metascore": 82
+   "metascore": 82,
+   "tmdb": 950028,
+   "titleAr": "الدعوة",
+   "overviewAr": "زواج \"جو\" و\"أنجيلا\" على وشك الانهيار. عندما يدعوان جارَيهما الغامضَين في الطابق العلوي إلى حفل عشاء، تأخذ الليلة منحى غير متوقع. فهل أعادا إشعال شرارة الحب بينهما، أم أشعلا الفتيل الذي سيحرق كل شيء؟",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+   "theatrical": "2026-06-26",
+   "digital": "2026-08-11",
+   "digitalCountry": "US",
+   "physical": "2026-10-05",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "286621192",
@@ -2014,7 +2464,21 @@
     "Christine Baranski",
     "Bill Irwin"
    ],
-   "metascore": 46
+   "metascore": 46,
+   "tmdb": 8871,
+   "titleAr": "كيف الغرينش سرق عيد الميلاد",
+   "overviewAr": "يقرر غرينش سرقة عيد الميلاد من هوفيل - لكن لمسة من اللطف من سيندي لو هو الصغيرة وعائلتها قد تكون كافية لإذابة قلبه...",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+   "theatrical": "2000-11-17",
+   "digital": "2015-10-13",
+   "digitalCountry": "US",
+   "physical": "2001-11-20",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6805023470",
@@ -2062,7 +2526,19 @@
     "Shin Hyeon-bin",
     "Go Soo"
    ],
-   "metascore": 57
+   "metascore": 57,
+   "tmdb": 1375646,
+   "titleAr": "مستعمرة",
+   "overviewAr": "بالبروفيسور \"سي-جونغ\" فجأةً في جحيمٍ دامٍ، حين يتفشّى فيروسٌ سريع التحوّر خلال مؤتمرٍ للتقنية الحيوية، فتُبادر السلطات إلى إغلاق المنشأة وعزلها بالكامل. وإذ يجد نفسه محاصرًا بلا أي منفذٍ للنجاة، يخوض \"سي-جونغ\" مع حفنةٍ من الناجين معركة بقاءٍ محمومة، بينما يتحوّل المصابون أمام أعينهم إلى وحوشٍ لا تُبقي ولا تذر.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+   "theatrical": "2026-08-28",
+   "physical": "2026-09-28",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "290531770",
@@ -2105,7 +2581,19 @@
     "Richmond Arquette",
     "David Andrews"
    ],
-   "metascore": 67
+   "metascore": 67,
+   "tmdb": 550,
+   "titleAr": "نادي القتال",
+   "overviewAr": "يعيش موظف مكتبي يعاني من الأرق والملل حياة روتينية فارغة، إلى أن يلتقي بالرجل الغامض تايلر ديردن، الذي يختلف عنه تمامًا ويؤمن بأن التحرر من قيود المجتمع يبدأ برفض الحياة التقليدية. تنشأ بينهما صداقة غريبة تقودهما إلى تأسيس نادٍ سري يتجمع فيه الرجال لخوض معارك جسدية بعيدًا عن أعين الناس، لكن النادي سرعان ما يتحول إلى حركة أكثر خطورة تسعى إلى تحدي النظام القائم. ومع تصاعد الأحداث، يبدأ الرجل في اكتشاف حقائق صادمة عن تايلر وعن نفسه، فتتغير نظرته إلى حياته وكل ما كان يعتقد أنه يعرفه.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
+   "theatrical": "1999-10-15",
+   "digital": "2026-05-12",
+   "digitalCountry": "US",
+   "physical": "2000-04-25",
+   "physicalFormats": [
+    "4K UHD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1440401528",
@@ -2150,7 +2638,17 @@
     "Tristan O'Hare",
     "Kenan Thompson"
    ],
-   "metascore": 51
+   "metascore": 51,
+   "tmdb": 360920,
+   "titleAr": "الجرينش",
+   "overviewAr": "تدور أحداث الفيلم عن (جرينش) الغاضب الذي يخطط لتدمير موسم عيد الكريسماس لقاطني القرية المجاورة لـ(هوفيل)، إلى أن تتغير عواطفه نحو العيد على يد فتاة صغيرة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/5lWIYxYEqWi8j3ZloxXntw3ImBo.jpg",
+   "theatrical": "2018-11-09",
+   "digital": "2019-01-22",
+   "digitalCountry": "US",
+   "physical": "2019-02-05",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "320824979",
@@ -2192,7 +2690,17 @@
     "Moneca Delain",
     "Tahmoh Penikett"
    ],
-   "metascore": null
+   "metascore": null,
+   "tmdb": 23202,
+   "titleAr": null,
+   "overviewAr": "أربع حكايات متشابكة تقع في ليلة الهالوين: مدير مدرسة يعيش حياة سرية مرعبة، وطالبة جامعية تظن أنها التقت فتى أحلامها، ومجموعة من المراهقين يدبرون مزحة قاسية، وعجوز منعزل ناقم يتلقى زيارة من ضيف غير مدعو.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/wYI3r4DGKhwjPoDpfPfGdLMrPLt.jpg",
+   "physical": "2009-10-06",
+   "physicalFormats": [
+    "4K UHD",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6794437146",
@@ -2234,7 +2742,21 @@
     "Frank Pando",
     "Zuleyma Guevara"
    ],
-   "metascore": 42
+   "metascore": 42,
+   "tmdb": 1433367,
+   "titleAr": "ليلة واحدة فقط",
+   "overviewAr": "يبحث شخصان من نيويورك عن الحب في الليلة الوحيدة من العام التي يُسمح فيها بممارسة الجنس قبل الزواج قانونياً.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/3afHil7EVm655wO2NS6RHxuyicE.jpg",
+   "theatrical": "2026-08-07",
+   "digital": "2026-09-08",
+   "digitalCountry": "US",
+   "physical": "2026-10-20",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1860214325",
@@ -2277,7 +2799,14 @@
     "Lamar Baucom-Slaughter",
     "Michele Morrone"
    ],
-   "metascore": 65
+   "metascore": 65,
+   "tmdb": 1368166,
+   "titleAr": "الخادمة",
+   "overviewAr": "ميلي كالواي، شابة ذات ماضٍ مضطرب تعمل كخادمة مقيمة لدى عائلة ثرية، غير أنّ حياتهم المثالية على ما يبدو تبدأ في الانهيار عندما تكتشف أن منزلهم يخفي أسرارًا مظلمة خلف المظاهر.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
+   "theatrical": "2025-12-19",
+   "digital": "2026-02-03",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1778329374",
@@ -2320,7 +2849,21 @@
     "Jonathan Bailey",
     "Ethan Slater"
    ],
-   "metascore": 73
+   "metascore": 73,
+   "tmdb": 402431,
+   "titleAr": null,
+   "overviewAr": "القصة غير المروية لساحرات أوز.\r يروي شرير قصة إلفابا، ساحرة الغرب الشريرة المستقبلية وعلاقتها مع غليندا، ساحرة الشمال الطيبة. أول فيلم روائي طويل من جزأين مقتبس من مسرحية برودواي الموسيقية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/w22GVYotTIVC1dUd58mRhwPqiS.jpg",
+   "theatrical": "2024-10-16",
+   "digital": "2024-12-31",
+   "digitalCountry": "US",
+   "physical": "2025-02-04",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1867601858",
@@ -2363,7 +2906,20 @@
     "Matilda De Angelis",
     "Ewens Abid"
    ],
-   "metascore": 44
+   "metascore": 44,
+   "tmdb": 1246049,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/be5SIsRGMckO8tU9lrLcIik70Dy.jpg",
+   "theatrical": "2026-02-06",
+   "digital": "2026-03-10",
+   "digitalCountry": "US",
+   "physical": "2025-12-22",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "562566593",
@@ -2408,7 +2964,12 @@
     "Peter Scolari",
     "Brendan King"
    ],
-   "metascore": 61
+   "metascore": 61,
+   "tmdb": 5255,
+   "titleAr": "القطار القطبي السريع",
+   "overviewAr": "تحكي القصة عن فتى صغيرٍ تراوده الشكوك حول وجود سانتا كلوز، في عشية عيد الميلاد يجد البطل الصغير نفسه دون مقدمات على متن قطارٍ سحري متجه إلى القطب الشمالي حيث منزل سانتا كلوز. خلال تلك الرحلة المثيرة، يواجه الفتى الكثير من المفاجآت ويخوض العديد من المغامرات، يكتشف عن نفسه الكثير بواسطة تلك المغامرة المثيرة التي توضح له أن أكثر العجائب غرابة في الدنيا قابلة للحدوث ولكن فقط مع من يؤمنون بها.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+   "theatrical": "2004-11-10"
   },
   {
    "itunesId": "279386406",
@@ -2451,7 +3012,20 @@
     "Benjamin Bratt",
     "Bob Gunton"
    ],
-   "metascore": 34
+   "metascore": 34,
+   "tmdb": 9739,
+   "titleAr": null,
+   "overviewAr": "سيمون فينيكس ، مجرم عنيف تم تجميده بالتبريد في عام 1996 ، يهرب خلال جلسة استماع مشروط في 2032 في يوتوبيا سان أنجلوس. الشرطة غير قادرة على التعامل مع طرقه العنيفة والتوجه إلى آسره ، الذي تم تجميده أيضًا بعد اتهامه ظلماً بقتل 30 شخصًا بريئًا أثناء اعتقاله فينيكس.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/4pl165EUdvveHCr4J4YcHVA1MnD.jpg",
+   "theatrical": "1993-10-08",
+   "physical": "1997-11-18",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US",
+   "digital": "2024-08-08",
+   "digitalCountry": "GB"
   },
   {
    "itunesId": "6788901468",
@@ -2519,7 +3093,14 @@
     "John Wilson"
    ],
    "cast": [],
-   "metascore": 83
+   "metascore": 83,
+   "tmdb": 1596296,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/dsyJUsyrl2rBiF0k9RpSKT2YQzL.jpg",
+   "theatrical": "2026-09-18",
+   "digital": "2026-11-03",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "595178029",
@@ -2561,7 +3142,17 @@
     "Obba Babatundé",
     "Matthew Barry"
    ],
-   "metascore": 53
+   "metascore": 53,
+   "tmdb": 11036,
+   "titleAr": null,
+   "overviewAr": "تقع الفتاة (آلي) في حب الشاب (نوح) عندما يتقابلان في أحد المهرجانات، لكن عائلة الفتاة تفرق بينهما بسبب فقر نوح، لتعيش آلي بعيدًا عن حبيبها بأمرٍ من أسرتها، وتوافق في النهاية على الخطبة إلى الجندي الوسيم (لون). تشاهد آلي بالمصادفة صورة لنوح في إحدى...",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/zdXnJqBaGFVtLoPNuMeKfEYUViZ.jpg",
+   "theatrical": "2004-06-25",
+   "digital": "2025-07-01",
+   "digitalCountry": "US",
+   "physical": "2004-10-08",
+   "physicalFormats": [],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "379802600",
@@ -2602,7 +3193,15 @@
     "Rory Cochrane",
     "Adam Goldberg"
    ],
-   "metascore": 82
+   "metascore": 82,
+   "tmdb": 9571,
+   "titleAr": null,
+   "overviewAr": "اليوم الأخير من العام الدراسي عام 1976 في بلدة صغيرة بتكساس، يحتفل طلاب السنة الأخيرة ببدء العطلة الصيفية بمطاردة الطلاب الجدد في طقوس الاستقبال القاسية المعتادة. ومع حلول الليل تتنقل الكاميرا بين حفلاتهم وجولاتهم بالسيارات وأحاديثهم عن المستقبل، في صورة لجيل كامل.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/iNNm00fWqHnlEI1O0KCTivzcPEw.jpg",
+   "theatrical": "1993-09-24",
+   "physical": "2014-08-04",
+   "physicalFormats": [],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "6795283436",
@@ -2647,7 +3246,20 @@
     "Florence Barrett",
     "Kevin McDonald"
    ],
-   "metascore": 89
+   "metascore": 89,
+   "tmdb": 1240889,
+   "titleAr": null,
+   "overviewAr": "مخرجة طموحة تسعى إلى إحياء سلسلة أفلام رعب دموية خبا بريقها، لكن لقاءها بنجمة الفيلم الأصلي المنعزلة يتحول إلى متاهة مرعبة من الهوس والخوف والأوهام الدامية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
+   "theatrical": "2026-08-07",
+   "digital": "2026-09-18",
+   "digitalCountry": "US",
+   "physical": "2026-12-14",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "272819260",
@@ -2690,7 +3302,19 @@
     "Sydney Pollack",
     "Leslie Lowe"
    ],
-   "metascore": 69
+   "metascore": 69,
+   "tmdb": 345,
+   "titleAr": "عيون مغلقة على اتساعها",
+   "overviewAr": "بعد أن اعترفت أليس ، زوجة الدكتور بيل هارفورد ، بوجود تخيلات جنسية عن رجل قابلته ، أصبح بيل مهووسًا بممارسة الجنس. يكتشف مجموعة جنسية سرية ويحضر أحد اجتماعاتهم - وسرعان ما يكتشف أنه فوق رأسه.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/aC6wW62V6b0csr5iUnbOjYAqfhg.jpg",
+   "theatrical": "1999-07-16",
+   "physical": "2000-03-07",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1550850447",
@@ -2734,7 +3358,12 @@
     "Stu Rutherford",
     "Ben Fransham"
    ],
-   "metascore": 76
+   "metascore": 76,
+   "tmdb": 246741,
+   "titleAr": "ما الذي نفعله في الخفاء",
+   "overviewAr": "فياجو وديسون وفالديستلاف ثلاثة جيران من مصاصي الدماء، يحاولون معًا التغلب على عقبات الحياة من خلال التغذي على دماء البشر وتجنب أشعة الشمس، ولكن مع مرور مئات السنوات وبقائهم على قيد الحياة، يواجهون عقبات أخرى في العالم الحديث مثل دفع إيجار الشقة والعمل لكسب المال.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/utjThRtcnsj0GrDwNudjGdfmHfq.jpg",
+   "theatrical": "2015-02-13"
   },
   {
    "itunesId": "6817525425",
@@ -2776,7 +3405,14 @@
     "Billie Lourd",
     "Dan Perrault"
    ],
-   "metascore": null
+   "metascore": null,
+   "tmdb": 1371730,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/snrOynVdMOZVA8aCxOAK9kBRQLm.jpg",
+   "theatrical": "2026-10-23",
+   "digital": "2026-10-23",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "371894110",
@@ -2819,7 +3455,12 @@
     "Goran Visnjic",
     "Aidan Quinn"
    ],
-   "metascore": 48
+   "metascore": 48,
+   "tmdb": 6435,
+   "titleAr": null,
+   "overviewAr": "شقيقتان من عائلة سحرية تجنبتا السحر طويلًا، وحين يموت الحبيب العنيف لإحداهما فجأة تلجآن إلى سحر خطير لإعادته إلى الحياة، فتبثان في جثته دون قصد روحًا شريرة تهدد بإنهاء سلالتهما، فيما يشتد شك شرطي في الأمر.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/2W2k9vb7tyFVmQ1yEb0P2vCBSeE.jpg",
+   "theatrical": "1998-10-16"
   },
   {
    "itunesId": "1640554133",
@@ -2863,7 +3504,19 @@
     "Keith David",
     "John Hodgman"
    ],
-   "metascore": 80
+   "metascore": 80,
+   "tmdb": 14836,
+   "titleAr": "كورالين",
+   "overviewAr": "طفلة تنتقل إلى منزل جديد، تعاني فيه من انشغال والديها بالعمل على تأليف بعض الكتب، تحصل على دمية كهدية من طفل الجيران، ثم تتمكن من الانتقال لعالم موازي من العرائس يحققون ويلبون كل طلباتها، فقط مقابل أن تبقى معهم عليها أن تتخلى عن عينيها وتضع مكانيهما زرين، فماذا يحدث؟",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
+   "theatrical": "2009-02-06",
+   "physical": "2009-07-21",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "732046880",
@@ -2906,7 +3559,19 @@
     "Eric Idle",
     "Ben Stein"
    ],
-   "metascore": 49
+   "metascore": 49,
+   "tmdb": 8839,
+   "titleAr": "كاسبر",
+   "overviewAr": "فتاة مراهقة تنتقل مع أبيها إلى أحد القصور القديمة الممتلئة بالاشباح وتقابل هناك الشبح الرقيق كاسبر ويصبح من اﻵن فصاعدًا صديقها ويساعدها علي التأقلم بالقصر.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/sQPckU0TfSeYIlUneHfIXwzQC2f.jpg",
+   "theatrical": "1995-05-26",
+   "physical": "1995-10-10",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1803920888",
@@ -2947,7 +3612,20 @@
     "Tenaj L. Jackson",
     "Michael B. Jordan"
    ],
-   "metascore": 84
+   "metascore": 84,
+   "tmdb": 1233413,
+   "titleAr": "الخطاة",
+   "overviewAr": "بعد سنوات من الهروب، يعود شقيقان توأمان إلى بلدتهما الهادئة على أمل فتح صفحة جديدة. لكن ماضيهما لم ينسَهما، وشرّ أعظم ينتظرهما هناك… شرّ لا يمكن الهروب منه هذه المرة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+   "theatrical": "2025-04-18",
+   "digital": "2025-06-03",
+   "digitalCountry": "US",
+   "physical": "2025-07-08",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "621368502",
@@ -2989,7 +3667,15 @@
     "Edward Herrmann",
     "Kiefer Sutherland"
    ],
-   "metascore": 63
+   "metascore": 63,
+   "tmdb": 1547,
+   "titleAr": "الأولاد الضائعون",
+   "overviewAr": "حين ينجذب وافدٌ جديد إلى البلدة، دون أن يدري، إلى مصاصي الدماء المحليين، يتأهب الأخوان فروغ وغيرهما من الأبطال غير المتوقعين لإنقاذه.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/6zvbeKxgc80xQsZLJ4eQVZSKXO8.jpg",
+   "theatrical": "1987-07-31",
+   "physical": "1988-10-18",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1179249419",
@@ -3034,7 +3720,17 @@
     "Thom Shelton",
     "Cinda Adams"
    ],
-   "metascore": 94
+   "metascore": 94,
+   "tmdb": 313369,
+   "titleAr": "لا لا لاند",
+   "overviewAr": "تقدم ميا ، الممثلة الطموحة ، اللاتيه لنجوم السينما بين الاختبارات وسيباستيان ، موسيقي الجاز ، يخدش من خلال لعب حفلات الكوكتيل في الحانات الصغيرة ، ولكن مع تزايد النجاح ، يواجهون قرارات تبدأ بإفساد النسيج الهش لحبهم. والأحلام التي عملوا بجد للحفاظ عليها في بعضهم البعض تهدد بتمزيقهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+   "theatrical": "2016-12-09",
+   "physical": "2017-04-11",
+   "physicalFormats": [],
+   "physicalCountry": "US",
+   "digital": "2017-05-08",
+   "digitalCountry": "GB"
   },
   {
    "itunesId": "188765138",
@@ -3077,7 +3773,17 @@
     "David Krumholtz",
     "Andrew Keegan"
    ],
-   "metascore": 70
+   "metascore": 70,
+   "tmdb": 4951,
+   "titleAr": "10 أشياء أكرهها بشأنك",
+   "overviewAr": "طالب جديد يجب عليه أن يجد شخص ليواعد أكثر الفتيات كآبة في المدرسة، وذلك من أجل أن يأخذ أختها الصغيرة المعجب بها في موعد، والتي لا تواعد أحد حتى تخرج أختها الأكبر أولًا.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/yvPbncYhMu9FfTjDhq0N5lgnVkO.jpg",
+   "theatrical": "1999-03-31",
+   "physical": "1999-10-12",
+   "physicalFormats": [
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6819504154",
@@ -3118,7 +3824,12 @@
     "Mark Lane III",
     "Myles Bullock"
    ],
-   "metascore": 86
+   "metascore": 86,
+   "tmdb": 1596248,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/mvAazk3iHE2H6I8bzN56cMz1ZH7.jpg",
+   "theatrical": "2026-09-11"
   },
   {
    "itunesId": "6807895018",
@@ -3162,7 +3873,14 @@
     "Michael Biehn",
     "Blake Kennedy"
    ],
-   "metascore": 57
+   "metascore": 57,
+   "tmdb": 1284046,
+   "titleAr": null,
+   "overviewAr": "تتحرر مجموعة من الجنود الخارقين المعدّلين وراثيًا من منشأة عسكرية سرية في الصحراء، فتجد قناصة سابقة نفسها مضطرة لاستخدام مهاراتها القتالية لحماية ابنتها من الخطر، بينما تحاول فرق من المرتزقة احتواء التهديد",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+   "theatrical": "2026-09-04",
+   "digital": "2026-10-06",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "308625280",
@@ -3203,7 +3921,12 @@
     "Jsu Garcia",
     "Johnny Depp"
    ],
-   "metascore": 76
+   "metascore": 76,
+   "tmdb": 377,
+   "titleAr": "كابوس في شارع إلم",
+   "overviewAr": "يتساقط مراهقو بلدة صغيرة واحدًا تلو الآخر في ظروف غامضة، فتكتشف ابنة شرطي أن السبب رجل مجرم أحرقه أهالي البلدة حيًا قبل سنوات، وعاد ليطارد أبناءهم في أحلامهم انتقامًا، فتضع مع حبيبها خطة لاستدراجه من عالم الكوابيس إلى الواقع.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nzSjTiecdosBfwMGAdpt9CxltCI.jpg",
+   "theatrical": "1984-11-09"
   },
   {
    "itunesId": "323818693",
@@ -3244,7 +3967,15 @@
     "Heather Graham",
     "Sasha Barrese"
    ],
-   "metascore": 73
+   "metascore": 73,
+   "tmdb": 18785,
+   "titleAr": null,
+   "overviewAr": "عندما يأتي ثلاثة أصدقاء أخيرًا بعد ليلة صاخبة من صخب حفلة توديع العزوبية ، يجدون طفلًا في الخزانة ونمرًا في الحمام. لكن يبدو أنهم لا يستطيعون تحديد مكان أفضل صديق لهم ، دوغ - الذي من المفترض أن يكون هو الذي يربط العقدة. يبدأ الثلاثي بحثًا محمومًا عن دوج ، ويثابر على مخلفاتهم السيئة لمحاولة الوصول إلى الكنيسة في الوقت المحدد.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/iuRVt8tFiXDPGgzavhuSa3QHRxD.jpg",
+   "theatrical": "2009-06-05",
+   "physical": "2009-11-19",
+   "physicalFormats": [],
+   "physicalCountry": "AU"
   },
   {
    "itunesId": "300150197",
@@ -3288,7 +4019,12 @@
     "Minnie Driver",
     "Ciarán Hinds"
    ],
-   "metascore": 40
+   "metascore": 40,
+   "tmdb": 9833,
+   "titleAr": null,
+   "overviewAr": "شبح مشوّه الوجه يسكن دار الأوبرا في باريس، يزرع الموت والفوضى في سبيل جعل المرأة التي يحبها نجمة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/p3P0eTh8AnqauhRZg0wgoBFvcjF.jpg",
+   "theatrical": "2004-12-22"
   },
   {
    "itunesId": "6818082064",
@@ -3330,7 +4066,14 @@
     "Jake Choi",
     "Augusto Aguilera"
    ],
-   "metascore": 37
+   "metascore": 37,
+   "tmdb": 1228834,
+   "titleAr": null,
+   "overviewAr": "بعد أن خاب أملهم بنهاية الحرب في أفغانستان، تنطلق مجموعة من العملاء السابقين في الاستخبارات المركزية، ممن فقدوا سمعتهم وأنهكتهم الحروب، إلى طهران لتنفيذ عملية قد تغيّر حياتهم إلى الأبد.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
+   "theatrical": "2026-09-11",
+   "digital": "2026-10-13",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6812912000",
@@ -3372,7 +4115,21 @@
     "Jacob Batalon",
     "Sadie Sink"
    ],
-   "metascore": 66
+   "metascore": 66,
+   "tmdb": 969681,
+   "titleAr": "سبايدر-مان: يوم جديد",
+   "overviewAr": "بينما يواصل \"بيتر باركر\" حماية المدينة بصفته \"الرجل العنكبوت\" في عالمٍ لم يعد يتذكره أحد، يجد نفسه وحيدًا وهو يشاهد أصدقاءه القدامى يمضون في حياتهم من دونه. ومع تصاعد الضغوط، يبدأ بالتغير بطريقة قد تعجز قواه عن كبحها. لكن هذا التحول قد يكون أمله الوحيد لمواجهة تهديدٍ غامض وخطير يلوح في الأفق، عدو يمتلك قوة مرعبة لا يستطيع أحد حتى رؤيته، ويهدد المدينة وكل من يهتم \"بيتر\" لأمرهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+   "theatrical": "2026-07-31",
+   "digital": "2026-10-06",
+   "digitalCountry": "US",
+   "physical": "2026-12-15",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6790578333",
@@ -3457,7 +4214,14 @@
     "Jason Wong",
     "Simon Kluth"
    ],
-   "metascore": 52
+   "metascore": 52,
+   "tmdb": 1288445,
+   "titleAr": "تمرد",
+   "overviewAr": "تبدأ القصة عندما يتم توريط كول، عميل سابق في القوات الخاصة وضابط شرطة سابق في مدينة نيويورك، في جريمة قتل رجل أعمال ملياردير، ويُتهم كول بقتل صديقه ورئيسه، تيبو، الذي وظف كول كخبير أمني خاص له ، فيضطر للهرب لإثبات براءته والكشف عن مؤامرة دولية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+   "theatrical": "2026-08-21",
+   "digital": "2026-09-08",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6823948773",
@@ -3501,7 +4265,14 @@
     "Sahajak Boonthanakit",
     "Korakod Yensuk"
    ],
-   "metascore": 54
+   "metascore": 54,
+   "tmdb": 1101412,
+   "titleAr": "سقوط 2 : النقطة المميته",
+   "overviewAr": "بعد وفاة شقيقتها، تحاول جاكس تجاوز حزنها بمساعدة صديقة شقيقتها لوس، فتقرر الاثنتان تسلق جبل كوان في تايلاند. لكنهما تتعرضان لانهيار صخري يحاصرهما على لوح ضيق على ارتفاع شاهق، وتتحول الرحلة إلى صراع من أجل البقاء",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+   "theatrical": "2026-09-02",
+   "digital": "2026-10-06",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "6816007054",
@@ -3546,7 +4317,20 @@
     "Jeff Bridges",
     "Jesse Eisenberg"
    ],
-   "metascore": 70
+   "metascore": 70,
+   "tmdb": 1315772,
+   "titleAr": "المينيون والوحوش",
+   "overviewAr": "هذه هي القصة الصاخبة والمضحكة والحقيقية تمامًا عن كيفية غزو المينيونز لهوليوود، وكيف أصبحوا نجومًا سينمائيين، وخسروا كل شيء، وأطلقوا العنان للوحوش على العالم، ثم تكاتفوا معًا لمحاولة إنقاذ الكوكب من الفوضى التي أحدثوها للتو",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+   "theatrical": "2026-07-01",
+   "digital": "2026-08-11",
+   "digitalCountry": "US",
+   "physical": "2026-09-08",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1635627017",
@@ -3589,7 +4373,21 @@
     "Andrew Koji",
     "Hiroyuki Sanada"
    ],
-   "metascore": 49
+   "metascore": 49,
+   "tmdb": 718930,
+   "titleAr": "قطار فائق السرعة",
+   "overviewAr": "على متن قطار فائق السرعة، ينتقل 5 من القتلة المأجورين في رحلة لتنفيذ مهمة دون معرفة أحدهم بالآخر، وسرعان ما يكتشف أن هناك عامل مشترك يجمعهم جميعًا بالمهمة المطلوب إنجازها.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/y2Ca1neKke2mGPMaHzlCNDVZqsK.jpg",
+   "theatrical": "2022-08-05",
+   "digital": "2022-09-27",
+   "digitalCountry": "US",
+   "physical": "2022-10-18",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1891848932",
@@ -3633,7 +4431,21 @@
     "Jaylen Lyndon Hunter",
     "Judah Edwards"
    ],
-   "metascore": 39
+   "metascore": 39,
+   "tmdb": 936075,
+   "titleAr": "مايكل",
+   "overviewAr": "يروي الفيلم قصة حياة مايكل جاكسون بعيداً عن الموسيقى، متتبعاً رحلته منذ اكتشاف موهبته الاستثنائية كقائد لفرقة \"جاكسون فايف\"، وصولاً إلى الفنان الملهم الذي دفع طموحه الإبداعي سعياً حثيثاً ليصبح أعظم فنان استعراضي في العالم. ومن خلال تسليط الضوء على حياته خارج الأضواء وبعض أكثر عروضه شهرة في بدايات مسيرته المنفردة، يمنح الفيلم الجمهور فرصة لمشاهدة مايكل جاكسون كما لم يروه من قبل. من هنا تبدأ قصته.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+   "theatrical": "2026-04-24",
+   "digital": "2026-06-09",
+   "digitalCountry": "US",
+   "physical": "2026-07-14",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1001606163",
@@ -3676,7 +4488,19 @@
     "Jon Bernthal",
     "Jim Parrack"
    ],
-   "metascore": 64
+   "metascore": 64,
+   "tmdb": 228150,
+   "titleAr": "غضب",
+   "overviewAr": "يتخذ قائد دبابة متمرس قرارات صعبة بينما يشق هو وطاقمه طريقهم عبر ألمانيا في أبريل 1945.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/95ckrV6wQgbffurAVmETQ5YKASL.jpg",
+   "theatrical": "2014-10-17",
+   "physical": "2015-01-27",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1896826363",
@@ -3720,7 +4544,21 @@
     "Colman Domingo",
     "Wyatt Russell"
    ],
-   "metascore": 74
+   "metascore": 74,
+   "tmdb": 1275779,
+   "titleAr": "يوم الإفصاح",
+   "overviewAr": "يصبح خبير في الأمن السيبراني مُبلغ عن المخالفات بعد اكتشافه أسرارًا عن كائنات فضائية، فتطاردُه إحدى الشركات. وفي نفس الوقت، تتعاون معه خبيرة أرصاد جوية تواجه ظواهر غريبة ليثبتا وجود حياة تتجاوز فهمنا.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/1e0KDRYKRPHiVNj8yQKYuU2jVyQ.jpg",
+   "theatrical": "2026-06-12",
+   "digital": "2026-07-21",
+   "digitalCountry": "US",
+   "physical": "2026-08-25",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "313929027",
@@ -3762,7 +4600,20 @@
     "Carey Mulligan",
     "Donald Sutherland"
    ],
-   "metascore": 82
+   "metascore": 82,
+   "tmdb": 4348,
+   "titleAr": null,
+   "overviewAr": "يعيش (بينيت) مع زوجته وبناته الخمس، وأكثر ما يقلقه أن تتحول ثروته بعد وفاته إلى قريب له من خارج البلدة، وما سينقذ الموقف هو زواج البنات من أزواج أثرياء، ويستأجر شابان ثريان المنزل بجوار منزل (بينيت)، فيتعلق (بينجلي) بـ(جين)، بينما تحب (إليزابيث) صديقه (دارسي).",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/1Onam6oWyFAUCcoxtdWkACtEiNr.jpg",
+   "theatrical": "2005-11-11",
+   "digital": "2013-10-15",
+   "digitalCountry": "US",
+   "physical": "2010-01-26",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6820687563",
@@ -3805,7 +4656,14 @@
     "Jenna Harvey",
     "Matthew McConaughey"
    ],
-   "metascore": 74
+   "metascore": 74,
+   "tmdb": 1124142,
+   "titleAr": null,
+   "overviewAr": "يعود أمزياه كينغ، مربي النحل والموسيقي المعروف في ريف أوكلاهوما، لاستقبال ابنته بالتبني كاتيري بعد سنوات من الفراق، آملًا في بناء حياة وأسرة جديدة معها، لكن الصراع الشرس حول تجارة العسل يضعهما في مواجهة منافسين يهددون كل ما يملكه",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
+   "theatrical": "2026-08-14",
+   "digital": "2026-09-15",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1736318773",
@@ -3917,7 +4775,14 @@
     "Luxton Handspiker",
     "Mckenna Grace"
    ],
-   "metascore": 49
+   "metascore": 49,
+   "tmdb": 893723,
+   "titleAr": null,
+   "overviewAr": "تتحول جراء باو باترول إلى الجراء الأقوياء  بعد تحطم نيزك في مدينة المغامرات. بالنسبة لسكاي ، أصغر عضو في الفريق ، فإن قواها الجديدة هي حلم أصبح حقيقة ، لكن الأمور تأخذ منعطفا نحو الأسوأ عندما يخرج منافس الجراء اللدود همدينجر من السجن ويتعاون مع عالم مجنون لسرقة القوى العظمى للأشرار. مع تعليقمصير مدينة المغامرات  في الميزان ، يتعين علىالجراء الأقوياء  إيقاف الأشرار الخارقون قبل فوات الأوان ، وسيحتاج سكاي إلى تعلم أنه حتى أصغر جرو يمكن أن يحدث فرقا أكبر.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
+   "theatrical": "2023-09-29",
+   "digital": "2023-10-31",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "1871345950",
@@ -3959,7 +4824,21 @@
     "Alison Oliver",
     "Martin Clunes"
    ],
-   "metascore": 55
+   "metascore": 55,
+   "tmdb": 1316092,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nHKscpZcAPkh97OsJJjyE5yaVE0.jpg",
+   "theatrical": "2026-02-13",
+   "digital": "2026-03-31",
+   "digitalCountry": "US",
+   "physical": "2026-05-05",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1193496401",
@@ -4004,7 +4883,17 @@
     "Thom Shelton",
     "Cinda Adams"
    ],
-   "metascore": 94
+   "metascore": 94,
+   "tmdb": 313369,
+   "titleAr": "لا لا لاند",
+   "overviewAr": "تقدم ميا ، الممثلة الطموحة ، اللاتيه لنجوم السينما بين الاختبارات وسيباستيان ، موسيقي الجاز ، يخدش من خلال لعب حفلات الكوكتيل في الحانات الصغيرة ، ولكن مع تزايد النجاح ، يواجهون قرارات تبدأ بإفساد النسيج الهش لحبهم. والأحلام التي عملوا بجد للحفاظ عليها في بعضهم البعض تهدد بتمزيقهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+   "theatrical": "2016-12-09",
+   "physical": "2017-04-11",
+   "physicalFormats": [],
+   "physicalCountry": "US",
+   "digital": "2017-05-08",
+   "digitalCountry": "GB"
   },
   {
    "itunesId": "282875479",
@@ -4045,7 +4934,12 @@
     "Clancy Brown",
     "Gil Bellows"
    ],
-   "metascore": 82
+   "metascore": 82,
+   "tmdb": 278,
+   "titleAr": "الخلاص من شاوشانك",
+   "overviewAr": "في أربعينيات القرن الماضي، يُدان المصرفي آندي دوفرين بجريمة قتل زوجته وعشيقها ويُزجّ به في سجن شاوشانك. داخل هذا العالم القاسي، يجد نفسه يعمل لصالح مدير فاسد مستغلًا مهاراته في المحاسبة. ومع مرور السنوات، يفرض آندي حضوره بين السجناء، ويكسب احترامهم — خصوصًا السجين رِد — بفضل ثباته ونزاهته وإصراره على التمسك بالأمل مهما اشتدت الظروف.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+   "theatrical": "1994-09-23"
   },
   {
    "itunesId": "6797833932",
@@ -4091,7 +4985,21 @@
     "Greta Lee",
     "Scarlett Spears"
    ],
-   "metascore": 73
+   "metascore": 73,
+   "tmdb": 1084244,
+   "titleAr": "حكاية لعبة ٥",
+   "overviewAr": "عندما تحصل \"بوني\" على جهاز \"ليلي باد\" اللوحي كهدية وتنجذب إليه بشكلٍ كبير، يجد \"وودي\" و\"باز\" و\"جيسي\" وبقية الألعاب أنفسهم أمام تحدٍ غير مسبوق، إذ تصبح مهمتهم في لفت انتباهها أصعب من أي وقت مضى، بينما يواجهون تهديدًا جديدًا يهدد عالم اللعب الذي اعتادوا عليه.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+   "theatrical": "2026-06-19",
+   "digital": "2026-08-18",
+   "digitalCountry": "US",
+   "physical": "2026-09-22",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1300348171",
@@ -4133,7 +5041,17 @@
     "Esther Garrel",
     "Victoire Du Bois"
    ],
-   "metascore": 94
+   "metascore": 94,
+   "tmdb": 398818,
+   "titleAr": "نادني باسمك",
+   "overviewAr": "في ثمانينيات القرن الماضي في إيطاليا ، بدأت علاقة بين إيليو البالغ من العمر سبعة عشر عامًا والرجل البالغ الذي تم تعيينه كمساعد أبحاث لوالده.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/4Xh2a1WeTp6b8Ksvug0pAMbX3dT.jpg",
+   "theatrical": "2017-11-24",
+   "digital": "2018-02-27",
+   "digitalCountry": "US",
+   "physical": "2018-03-13",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1743178051",
@@ -4177,7 +5095,21 @@
     "Josh Brolin",
     "Austin Butler"
    ],
-   "metascore": 79
+   "metascore": 79,
+   "tmdb": 693134,
+   "titleAr": "كثيب: القسم الثاني",
+   "overviewAr": "تابع الرحلة الأسطورية لبول أتريدس وهو يتحد مع تشاني وفريمن أثناء وجوده في طريق حربي للانتقام من المتآمرين الذين دمروا عائلته. في مواجهة الاختيار بين حب حياته ومصير الكون المعروف ، يسعى بولس إلى منع مستقبل رهيب لا يستطيع التنبؤ به سواه.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+   "theatrical": "2024-03-01",
+   "digital": "2024-04-16",
+   "digitalCountry": "US",
+   "physical": "2024-05-14",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1893154906",
@@ -4220,7 +5152,14 @@
     "Lamar Baucom-Slaughter",
     "Michele Morrone"
    ],
-   "metascore": 65
+   "metascore": 65,
+   "tmdb": 1368166,
+   "titleAr": "الخادمة",
+   "overviewAr": "ميلي كالواي، شابة ذات ماضٍ مضطرب تعمل كخادمة مقيمة لدى عائلة ثرية، غير أنّ حياتهم المثالية على ما يبدو تبدأ في الانهيار عندما تكتشف أن منزلهم يخفي أسرارًا مظلمة خلف المظاهر.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
+   "theatrical": "2025-12-19",
+   "digital": "2026-02-03",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "780980211",
@@ -4265,7 +5204,17 @@
     "Terence Bernie Hines",
     "Adam Scott"
    ],
-   "metascore": 54
+   "metascore": 54,
+   "tmdb": 116745,
+   "titleAr": "حياة والتر ميتي السرية",
+   "overviewAr": "يبدأ مدير صور المجلات الخجول الذي يعيش الحياة بشكل غير مباشر من خلال أحلام اليقظة في مغامرة حقيقية عندما يختفي أحد الأشياء السلبية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/8hSjOHRY4OUEpqxszYbMdem8z9C.jpg",
+   "theatrical": "2013-12-25",
+   "physical": "2014-04-21",
+   "physicalFormats": [
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "904080324",
@@ -4308,7 +5257,20 @@
     "Julian Rhind-Tutt",
     "Pilou Asbæk"
    ],
-   "metascore": 62
+   "metascore": 62,
+   "tmdb": 240832,
+   "titleAr": "لوسي",
+   "overviewAr": "امرأة ، تم القبض عليها عن طريق الخطأ في صفقة مظلمة ، تقلب الطاولات على خاطفيها وتتحول إلى محاربة لا ترحم تطورت بما يتجاوز المنطق البشري.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/ozVwXlfxqNsariipatGwa5px3Pm.jpg",
+   "theatrical": "2014-07-25",
+   "digital": "2015-01-06",
+   "digitalCountry": "US",
+   "physical": "2015-01-20",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "299020164",
@@ -4350,7 +5312,18 @@
     "Jack Klugman",
     "Edward Binns"
    ],
-   "metascore": 97
+   "metascore": 97,
+   "tmdb": 389,
+   "titleAr": "١٢ رجلاً غاضباً",
+   "overviewAr": "انتهى الدفاع والادعاء من تقديم مرافعاتهما، ودخلت هيئة المحلفين إلى غرفة المداولة لتحديد ما إذا كان شاب أمريكي من أصل إسباني مذنبًا أم بريئًا من تهمة قتل والده. ما بدأ كقضية محسومة سرعان ما تحول إلى دراما مصغرة تعكس تحيزات كل محلف وأفكاره المسبقة عن المحاكمة والمتهم وعن بعضهم البعض",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+   "theatrical": "1957-04-10",
+   "physical": "2001-03-19",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "1886872394",
@@ -4397,7 +5370,21 @@
     "Chris Pratt",
     "Charlie Day"
    ],
-   "metascore": 37
+   "metascore": 37,
+   "tmdb": 1226863,
+   "titleAr": "فيلم سوبر ماريو جالاكسي",
+   "overviewAr": "بعد إحباط خطة باوزر السابقة للزواج من الأميرة بيتش، يواجه ماريو ولويجي الآن تهديداً جديداً يتمثل في (باوزر الابن)، المصمم على تحرير والده من الأسر واستعادة إرث عائلته. جنباً إلى جنب مع رفاقهم الجدد والقدامى، يسافر الأخوان عبر النجوم لإيقاف الحملة الانتقامية للوريث الشاب.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
+   "theatrical": "2026-04-01",
+   "digital": "2026-05-19",
+   "digitalCountry": "US",
+   "physical": "2026-06-16",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1172058573",
@@ -4442,7 +5429,15 @@
     "Camille Cottin",
     "Michael McKell"
    ],
-   "metascore": 60
+   "metascore": 60,
+   "tmdb": 369885,
+   "titleAr": "حليف",
+   "overviewAr": "في عام 1942 ، واجه ضابط مخابرات في شمال إفريقيا مقاتلة من المقاومة الفرنسية في مهمة مميتة خلف خطوط العدو. عندما يجتمعون في لندن ، تختبر علاقتهم ضغوط الحرب.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/cdR0qwyaMfuZRfTYEixUmRnmdop.jpg",
+   "theatrical": "2016-11-23",
+   "physical": "2017-02-28",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6806486954",
@@ -4488,7 +5483,21 @@
     "Frankie Adams",
     "Jemaine Clement"
    ],
-   "metascore": 42
+   "metascore": 42,
+   "tmdb": 1108427,
+   "titleAr": "فلم موانا",
+   "overviewAr": "تستجيب موانا المراهقة لنداء المحيط، ولأول مرة، تبحر إلى ما وراء الشعاب المرجانية لجزيرتها موتوني مع نصف الإله سيئ السمعة ماوي في رحلة لا تُنسى لاستعادة الازدهار لشعبها",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+   "theatrical": "2026-07-10",
+   "digital": "2026-09-08",
+   "digitalCountry": "US",
+   "physical": "2026-10-06",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1742821361",
@@ -4564,7 +5573,21 @@
     "Liam Hemsworth",
     "Elizabeth Banks"
    ],
-   "metascore": 68
+   "metascore": 68,
+   "tmdb": 70160,
+   "titleAr": "مباريات الجوع",
+   "overviewAr": "في كل عام على أنقاض ما كان في السابق أمريكا الشمالية ، تجبر دولة بانيم كل منطقة من مقاطعاتها الاثنتي عشرة على إرسال فتى وفتاة في سن المراهقة للمنافسة في ألعاب الجوع. تعتبر ألعاب الجوع ، جزئيًا ترفيه ملتوي ، وتكتيك تخويف حكومي جزئيًا ، حدثًا متلفزًا على المستوى الوطني ، حيث يجب أن يقاتل \"Tributes\" مع بعضهم البعض حتى يبقى أحد الناجين. في مواجهة Tributes المدربين تدريباً عالياً الذين استعدوا لهذه الألعاب طوال حياتهم ، تضطر كاتنيس إلى الاعتماد على غرائزها الحادة بالإضافة إلى إرشاد المنتصر السابق المخمور هايميتش أبيرناثي. إذا كانت ستعود إلى ديستريكت 12 ، فيجب على كاتنيس أن تتخذ خيارات مستحيلة في الساحة تزن البقاء على قيد الحياة مقابل الإنسانية والحياة ضد الحب. سوف يراقب العالم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/eVYChqJavS1DCXFeJE2lzVUMLKp.jpg",
+   "theatrical": "2012-03-23",
+   "digital": "2023-12-01",
+   "digitalCountry": "US",
+   "physical": "2012-08-18",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1721802678",
@@ -4607,7 +5630,20 @@
     "Tom Blyth",
     "Hunter Schafer"
    ],
-   "metascore": 54
+   "metascore": 54,
+   "tmdb": 695721,
+   "titleAr": "ألعاب الجوع: أنشودة الطيور المغردة والثعابين",
+   "overviewAr": "قبل سنوات من تحوله إلى رئيس مستبد في بانيم، تدور الأحداث حول كوريولانوس سنو في سن الثامنة عشر، حيث يبحث عن المجد بعد اختياره ليكون مرشدًا لدورة ألعاب الجوع العاشرة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/bk1TitfD4YIGrM6AvljonMCtfnl.jpg",
+   "theatrical": "2023-11-17",
+   "digital": "2023-12-19",
+   "digitalCountry": "US",
+   "physical": "2024-02-13",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1713837502",
@@ -4650,7 +5686,21 @@
     "Scott Grimes",
     "Jason Clarke"
    ],
-   "metascore": 90
+   "metascore": 90,
+   "tmdb": 872585,
+   "titleAr": "أوبنهايمر",
+   "overviewAr": "فلم يحكي السيرة الذاتية وقصة العالم الأمريكي روبرت أوبنهايمر ودوره في تطوير القنبلة الذرية، وكيف غير مشروع مانهاتن من كل شيء في العالم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
+   "theatrical": "2023-07-21",
+   "digital": "2023-11-21",
+   "digitalCountry": "US",
+   "physical": "2023-11-21",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1896463796",
@@ -4692,7 +5742,17 @@
     "David Wilmot",
     "Michael Patric"
    ],
-   "metascore": 76
+   "metascore": 76,
+   "tmdb": 1430077,
+   "titleAr": null,
+   "overviewAr": "عندما ينعزل الروائي أوم بومان في نُزل ناءٍ لينثر رماد والديه، تسيطر عليه حكايات عن ساحرة تطارد نزلاء جناح شهر العسل. لكن الرؤى المزعجة وحالة اختفاء صادمة تجبره على مواجهة الزوايا المظلمة من ماضيه",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/qY7zVZ7liULhfRoXg4c9Xl83LcR.jpg",
+   "theatrical": "2026-05-01",
+   "digital": "2026-06-02",
+   "digitalCountry": "US",
+   "physical": "2026-08-11",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "374883182",
@@ -4775,7 +5835,12 @@
     "Michael Fassbender",
     "Diane Kruger"
    ],
-   "metascore": 69
+   "metascore": 69,
+   "tmdb": 16869,
+   "titleAr": "أوغاد مجهولون",
+   "overviewAr": "في فرنسا التي احتلها النازيون خلال الحرب العالمية الثانية ، تم اختيار مجموعة من الجنود الأمريكيين اليهود المعروفين باسم \"الباستردز\" على وجه التحديد لنشر الخوف في جميع أنحاء الرايخ الثالث عن طريق المضاربة وقتل النازيين بوحشية. سرعان ما التقى آل باستردز بقيادة الملازم ألدو راين مع فتاة مراهقة فرنسية يهودية تدير مسرحًا للسينما في باريس استهدفها الجنود.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/hwNtEmmugU5Yd7hpfprNWI0DGIn.jpg",
+   "theatrical": "2009-08-21"
   },
   {
    "itunesId": "1145038137",
@@ -4819,7 +5884,15 @@
     "Jason Cottle",
     "Austin R. Grant"
    ],
-   "metascore": 40
+   "metascore": 40,
+   "tmdb": 423087,
+   "titleAr": null,
+   "overviewAr": "متزلج مغامر يضيع في عاصفة ثلجية هائلة في مرتفعات سييرا، فيُدفع إلى أقصى حدود الاحتمال البشري، ويصارع شياطينه الشخصية وهو يقاتل من أجل البقاء.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/twq14rFTS6a2SoJsk8LSajR7Hym.jpg",
+   "theatrical": "2017-10-13",
+   "physical": "2018-01-15",
+   "physicalFormats": [],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "1841060491",
@@ -4862,7 +5935,19 @@
     "Marin Ireland",
     "Dasha Nekrasova"
    ],
-   "metascore": 70
+   "metascore": 70,
+   "tmdb": 1136867,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/lqwwGkwJHtz9QgKtz4zeY19YgDg.jpg",
+   "theatrical": "2025-06-13",
+   "digital": "2025-07-22",
+   "digitalCountry": "US",
+   "physical": "2025-08-26",
+   "physicalFormats": [
+    "Blu-ray"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "741296001",
@@ -4907,7 +5992,14 @@
     "Sandra Ellis Lafferty",
     "Woody Harrelson"
    ],
-   "metascore": 76
+   "metascore": 76,
+   "tmdb": 101299,
+   "titleAr": null,
+   "overviewAr": "عادت كاتنيس إيفردين إلى منزلها بأمان بعد فوزها في دورة ألعاب الجوع السنوية رقم 74 مع زميلتها بيتا ميلارك. الفوز يعني أنه يجب عليهم أن يستديروا ويتركوا عائلاتهم وأصدقائهم المقربين ، والشروع في \"جولة فيكتور\" للمناطق. على طول الطريق التي يشعر بها كاتنيس أن التمرد يغلي ، لكن الكابيتول لا يزال مسيطرًا إلى حد كبير حيث يستعد الرئيس سنو لألعاب الجوع السنوية الخامسة والسبعين (The Quarter Quell) - وهي منافسة يمكن أن تغير Panem إلى الأبد.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/eHaazLxM5LRMh0ySkVy7SK6wUWt.jpg",
+   "theatrical": "2013-11-22",
+   "digital": "2023-12-01",
+   "digitalCountry": "US"
   },
   {
    "itunesId": "291735123",
@@ -4950,7 +6042,12 @@
     "Kate Nelligan",
     "Jane Morris"
    ],
-   "metascore": 66
+   "metascore": 66,
+   "tmdb": 3784,
+   "titleAr": null,
+   "overviewAr": "عندما يُطلق سراح جوني من السجن بعد اتهامه بالتزوير ، سرعان ما حصل على وظيفة طباخًا لفترة قصيرة في مطعم في نيويورك. بعد رحلة قصيرة مع النادلة كورا ، طوّر فرانكي جاذبية لصديق كورا وزميلته النادلة فرانكي. بينما تقاوم فرانكي سحر جوني في البداية ، تتراجع في النهاية عندما يقنعها صديقها المقرب ، تيم ، بمنح جوني فرصة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/mXn2VhwaRKAKahulvqLdM5i3t7D.jpg",
+   "theatrical": "1991-10-11"
   },
   {
    "itunesId": "532119287",
@@ -4992,7 +6089,18 @@
     "Kiefer Sutherland",
     "Kevin Pollak"
    ],
-   "metascore": 62
+   "metascore": 62,
+   "tmdb": 881,
+   "titleAr": null,
+   "overviewAr": "عندما كان المحامي العسكري مغرور الملازم دانيال كافي ومستشاره الملازم القائد. تم تكليف JoAnne Galloway بقضية قتل ، ويكشفون عن طقوس مزعجة يمكن أن تورط مسؤولين رفيعي المستوى مثل الكولونيل الغامض ناثان جيسيب.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/8UOdqhVP28OcnzNL6DnQf0GDLvR.jpg",
+   "theatrical": "1992-12-11",
+   "physical": "1997-09-30",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1838538570",
@@ -5034,7 +6142,20 @@
     "Josh Brolin",
     "Benedict Wong"
    ],
-   "metascore": 81
+   "metascore": 81,
+   "tmdb": 1078605,
+   "titleAr": "أسلحة",
+   "overviewAr": "عندما يختفي جميع الأطفال من نفس الفصل بشكل غامض في نفس الليلة وفي نفس الوقت تمامًا، يتساءل المجتمع عن من أو ما الذي يقف وراء اختفائهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/8VyTWJrNEyV2MTWvniDVp0MpOAe.jpg",
+   "theatrical": "2025-08-08",
+   "digital": "2025-09-09",
+   "digitalCountry": "US",
+   "physical": "2025-10-14",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1668032018",
@@ -5077,7 +6198,20 @@
     "Will Patton",
     "Jesse C. Boyd"
    ],
-   "metascore": 47
+   "metascore": 47,
+   "tmdb": 616820,
+   "titleAr": "نهاية الهالوين",
+   "overviewAr": "بعد أربع سنوات من أحداث عيد الهالوين في عام 2018، قررت لوري تحرير نفسها من الخوف والغضب واحتضان الحياة. ولكن عندما يُتهم شاب بقتل صبي كان يرعاه، فإن ذلك يشعل سلسلة من العنف والإرهاب ستجبر لوري أخيرًا على مواجهة الشر الذي لا يمكنها السيطرة عليه، مرة واحدة وإلى الأبد.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/aTovumsNlDjof7YVoU5nW2RHaYn.jpg",
+   "theatrical": "2022-10-14",
+   "digital": "2022-10-14",
+   "digitalCountry": "US",
+   "physical": "2022-12-27",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "6807940518",
@@ -5122,7 +6256,19 @@
     "Jon Linstad",
     "Jenny Doyle"
    ],
-   "metascore": 75
+   "metascore": 75,
+   "tmdb": 1422011,
+   "titleAr": null,
+   "overviewAr": "انطلقت مجموعة من الخريجين الجدد في رحلة ليلية بالسيارة بحثًا عن الطعام، آملين في قضاء وقت ممتع معًا قبل أن تفرقهم السبل. لكنهم وجدوا أنفسهم، عن طريق الخطأ، في طريق طويل لا نهاية له، ذي مسارين، محاط بأهوال لا تُوصف وقوى كونية تفوق فهمهم. مكتظين داخل سيارة جيب شيروكي، والأميال تمتد أمامهم بلا نهاية، يواجهون خيارًا صعبًا: إما تقبّل واقعهم الجديد أو الكفاح من أجل النجاة منه.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/9Wf1xwPOycnxvdVnpr6Di381Zf.jpg",
+   "theatrical": "2026-08-21",
+   "digital": "2025-12-10",
+   "digitalCountry": "US",
+   "physical": "2026-11-23",
+   "physicalFormats": [
+    "Blu-ray"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "6800082980",
@@ -5170,7 +6316,19 @@
     "Shin Hyeon-bin",
     "Go Soo"
    ],
-   "metascore": 57
+   "metascore": 57,
+   "tmdb": 1375646,
+   "titleAr": "مستعمرة",
+   "overviewAr": "بالبروفيسور \"سي-جونغ\" فجأةً في جحيمٍ دامٍ، حين يتفشّى فيروسٌ سريع التحوّر خلال مؤتمرٍ للتقنية الحيوية، فتُبادر السلطات إلى إغلاق المنشأة وعزلها بالكامل. وإذ يجد نفسه محاصرًا بلا أي منفذٍ للنجاة، يخوض \"سي-جونغ\" مع حفنةٍ من الناجين معركة بقاءٍ محمومة، بينما يتحوّل المصابون أمام أعينهم إلى وحوشٍ لا تُبقي ولا تذر.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+   "theatrical": "2026-08-28",
+   "physical": "2026-09-28",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "1807875750",
@@ -5215,7 +6373,17 @@
     "Caden Dragomer",
     "Sophia Kopera"
    ],
-   "metascore": 44
+   "metascore": 44,
+   "tmdb": 1217690,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/7xbAPWP9utLRecydyFSBaQ0PYGZ.jpg",
+   "theatrical": "2024-12-20",
+   "digital": "2025-01-31",
+   "digitalCountry": "US",
+   "physical": "2025-09-10",
+   "physicalFormats": [],
+   "physicalCountry": "AU"
   },
   {
    "itunesId": "273050393",
@@ -5260,7 +6428,17 @@
     "Jouko Ahola",
     "David Thewlis"
    ],
-   "metascore": 63
+   "metascore": 63,
+   "tmdb": 1495,
+   "titleAr": "مملكة الجَنَّة",
+   "overviewAr": "بعد وفاة زوجته ، انغمس حداد يُدعى باليان في الملوك والمؤامرات السياسية والحروب المقدسة الدموية خلال الحروب الصليبية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/kP8rK9dGS1pr0HrnmXfIi2heWjo.jpg",
+   "theatrical": "2005-05-06",
+   "physical": "2005-10-11",
+   "physicalFormats": [
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1506603158",
@@ -5302,7 +6480,17 @@
     "Ryan McKen",
     "Joe Citro"
    ],
-   "metascore": 58
+   "metascore": 58,
+   "tmdb": 537140,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/jLVVjLZrlvi2CqkXHLCtcH9Yg9c.jpg",
+   "digital": "2020-03-06",
+   "digitalCountry": "US",
+   "physical": "2020-03-06",
+   "physicalFormats": [],
+   "physicalCountry": "US",
+   "theatrical": "2020-03-20"
   },
   {
    "itunesId": "1837689368",
@@ -5345,7 +6533,20 @@
     "Stephen Phillips",
     "Sally-Anne Upton"
    ],
-   "metascore": 75
+   "metascore": 75,
+   "tmdb": 1151031,
+   "titleAr": "أعيدوها",
+   "overviewAr": "في إطار من الرعب، ينتقل أخ وأخت للعيش رفقة أم بالتبني، ولكن تتحول أحلامهما بالأمان والهدوء لكابوس مروع حينما يكتشفوا الطقوس الغريبة التي تدور داخل المنزل.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/2IIKts2A9vnUdM9tTC76B8tDmuZ.jpg",
+   "theatrical": "2025-05-30",
+   "digital": "2025-07-01",
+   "digitalCountry": "US",
+   "physical": "2025-08-19",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "303632443",
@@ -5388,7 +6589,18 @@
     "Richard Harris",
     "Derek Jacobi"
    ],
-   "metascore": 67
+   "metascore": 67,
+   "tmdb": 98,
+   "titleAr": "المجالد",
+   "overviewAr": "في روما القديمة، تتحول حياة الجنرال العظيم ماكسيموس إلى مأساة عندما يقتل الإمبراطور الجديد كومودوس عائلته ويرسله للعبودية. يجد ماكسيموس نفسه مجبراً على القتال كمصارع في حلبات الموت، متخذاً طريقاً دموياً نحو روما حيث يسعى للانتقام من الطاغية الذي دمر حياته.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
+   "theatrical": "2000-05-05",
+   "physical": "2000-11-21",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1135860119",
@@ -5433,7 +6645,15 @@
     "Margaret Qualley",
     "Yaya DaCosta"
    ],
-   "metascore": 70
+   "metascore": 70,
+   "tmdb": 290250,
+   "titleAr": "اﻷشخاص اللطفاء",
+   "overviewAr": "في لوس أنجلوس خلال فترة السبعينيات، عندما يضطر محقق خاص سيء الحظ، ورجل يجيد استخدام القانون في الحصول على مبتغاه، إلى التعاون سويًا من أجل حل قضية اختفاء فتاة، ومقتل نجمة أفلام إباحية، حيث يبدو من الخارج عدم وجود علاقة بين القضيتين. أثناء التحقيق، يكتشف الاثنان مؤامرة صادمة تتعلق بأكبر دوائر القوى.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/yxYUN3fBPJdTNdXC1l8L24XFPhX.jpg",
+   "theatrical": "2016-05-20",
+   "physical": "2016-08-23",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1558633964",
@@ -5474,7 +6694,12 @@
     "Sheri Moon Zombie",
     "William Forsythe"
    ],
-   "metascore": 47
+   "metascore": 47,
+   "tmdb": 2082,
+   "titleAr": null,
+   "overviewAr": "يستعرض الفيلم السنوات الأولى لطفل مضطرب في بلدة أمريكية هادئة، والأحداث التي قادته إلى ليلة هالوين مصيرية تحول فيها إلى قاتل لا يعرف الرحمة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/uEnA2AKtrpX4LCZ98hBLwVkhJEd.jpg",
+   "theatrical": "2007-08-31"
   },
   {
    "itunesId": "533733281",
@@ -5516,7 +6741,18 @@
     "Joseph Mazzello",
     "Patrick Mapel"
    ],
-   "metascore": 95
+   "metascore": 95,
+   "tmdb": 37799,
+   "titleAr": "الشبكة الاجتماعية",
+   "overviewAr": "في إحدى ليالي خريف عام 2003 ، جلس مارك زوكربيرج ، جامع جامعي وعبقرية برمجة الكمبيوتر في جامعة هارفارد ، أمام جهاز الكمبيوتر الخاص به وبدأ بحرارة العمل على فكرة جديدة. في خضم موجة من التدوين والبرمجة ، سرعان ما يتحول ما يبدأ في غرفة سكنه كموقع صغير بين الأصدقاء إلى شبكة اجتماعية عالمية وثورة في الاتصال. بعد ست سنوات فقط و 500 مليون صديق ، أصبح مارك زوكربيرج أصغر ملياردير في التاريخ ... لكن بالنسبة لرجل الأعمال هذا ، يؤدي النجاح إلى تعقيدات شخصية وقانونية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
+   "theatrical": "2010-10-01",
+   "physical": "2011-01-11",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "532585055",
@@ -5598,7 +6834,20 @@
     "Shane Paul McGhie",
     "Candice King"
    ],
-   "metascore": 14
+   "metascore": 14,
+   "tmdb": 613504,
+   "titleAr": "بعد اصطدامنا",
+   "overviewAr": "تلتقي تيسا بهاردن لتبدأ قصة حب جديدة بينهما، ولكن حينما تضرب علاقتهما مفاجأة مذهلة عن ماضي هاردن، سرعان ما تتعقد الأمور وتصبح تيسا بين خيارين أصعب من بعضهما البعض.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/6hgItrYQEG33y0I7yP2SRl2ei4w.jpg",
+   "theatrical": "2020-10-23",
+   "digital": "2020-10-23",
+   "digitalCountry": "US",
+   "physical": "2020-11-24",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1537914624",
@@ -5632,7 +6881,11 @@
     "Cosima Dannoritzer"
    ],
    "cast": [],
-   "metascore": null
+   "metascore": null,
+   "tmdb": 675252,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/tHzbC4OO5PPkHsjNhZxsZwyWAaD.jpg"
   },
   {
    "itunesId": "1670748170",
@@ -5673,7 +6926,15 @@
     "Kate Nic Chonaonaigh",
     "Joan Sheehy"
    ],
-   "metascore": 89
+   "metascore": 89,
+   "tmdb": 916405,
+   "titleAr": "الفتاة الهادئة",
+   "overviewAr": "إيرلندا الريفية. 1981. يتم طرد فتاة هادئة ومهملة بعيدًا عن أسرتها المفككة لتعيش مع والديها بالتبني في الصيف. إنها تتفتح في رعايتهم ، ولكن في هذا المنزل حيث لا يوجد أسرار ، تكتشف أسرارًا.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/23jok5sYloPEBwKd6Bp4V8Y1O9I.jpg",
+   "theatrical": "2022-12-16",
+   "physical": "2022-09-05",
+   "physicalFormats": [],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "1041445878",
@@ -5715,7 +6976,17 @@
     "JoJo Kushner",
     "Andrew Rannells"
    ],
-   "metascore": 51
+   "metascore": 51,
+   "tmdb": 257211,
+   "titleAr": "المديرة والشعر الأبيض",
+   "overviewAr": "اكتشف الأرمل بن ويتاكر البالغ من العمر 70 عاما أن التقاعد ليس كل ما في الأمر. اغتنم فرصة للعودة إلى اللعبة ، وأصبح متدربا كبيرا في موقع أزياء على الإنترنت ، أسسه ويديره جول أوستين.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/i8Q2Ei2dPliMLgPWYhRTxIDzh7r.jpg",
+   "theatrical": "2015-09-25",
+   "physical": "2016-02-29",
+   "physicalFormats": [
+    "DVD"
+   ],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "1558385130",
@@ -5756,7 +7027,17 @@
     "Caroline Williams",
     "Malcolm McDowell"
    ],
-   "metascore": 35
+   "metascore": 35,
+   "tmdb": 24150,
+   "titleAr": null,
+   "overviewAr": "شابة تكافح لتقبل العودة الدامية لأخيها القاتل المقنع إلى بلدتهما في إلينوي، فيما يستعد هو للقاء جديد بأخته.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/mGHfOrb2MDOvgeFb4pQVeWH6adg.jpg",
+   "theatrical": "2009-08-28",
+   "physical": "2010-03-04",
+   "physicalFormats": [
+    "DVD"
+   ],
+   "physicalCountry": "AU"
   },
   {
    "itunesId": "1335434155",
@@ -5803,7 +7084,18 @@
     "Jackie Chan",
     "Seth Rogen"
    ],
-   "metascore": 74
+   "metascore": 74,
+   "tmdb": 9502,
+   "titleAr": "كونغ فو باندا",
+   "overviewAr": "في وادي السلام، يجد (بو) الباندا نفسه قد اختير كمحارب التنين على الرغم من حقيقة أنه يعاني من السمنة والخمول، وكونه مبتدئ في فنون الدفاع عن النفس، ويحاول أن يثبت جدارته بهذا الاختيار أمام المعلم (شيفو) والغاضبين الخمسة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/qdthf9WrRDSaIkGVQGhhJ9pz1hn.jpg",
+   "theatrical": "2008-06-06",
+   "physical": "2008-11-09",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "290960669",
@@ -5845,7 +7137,12 @@
     "Kathleen Quinlan",
     "Dan Byrd"
    ],
-   "metascore": 52
+   "metascore": 52,
+   "tmdb": 9792,
+   "titleAr": "التلال لها عيون",
+   "overviewAr": "تُلاحق عائلة من ضاحية أمريكية من قبل مجموعة من المضطربين ذهنيًا، من الذين يعيشون فى الصحراء بعيدًا عن الحضارة والمدنية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/vrFI0I3M8ROZduj9XbFDoQKZyao.jpg",
+   "theatrical": "2006-03-10"
   },
   {
    "itunesId": "834328078",
@@ -5890,7 +7187,12 @@
     "Ray Stevenson",
     "Zoë Kravitz"
    ],
-   "metascore": 48
+   "metascore": 48,
+   "tmdb": 157350,
+   "titleAr": "المختلفة",
+   "overviewAr": "تدور احداث فيلم حول في المستقبل حيث يعيش المجتمع في وضعٍ قاسٍ ومريرٍ. ينقسم هذا المجتمع إلي خمس جماعات، كلٍ منها تتميز بخصيلةٍ معينةٍ وعلي المراهقين أن يقرروا إذا كانوا سيبقون داخل جماعتهم أم سينضمون لجماعةٍ أخري لبقية حياتهم. تجد (تريس بريور) نفسها وأفراد جماعتها في خضم عمليةٍ تنافسيةٍ قاسيةٍ، حيث سيمرون بتدريباتٍ بدنيةٍ ونفسيةٍ مضنيةٍ. ولكن لديها سرٌ أخفته عن الجميع وهو أنها مختلفه تمامًا عن بقية أفراد الخمس جماعات ،وأنه لا يناسبها أي من الخمس جماعات ولا تستطيع التكيف فيها. ولكن تأتي الكارثة بأنها إذا علم أحد هذا السر فهذا يعني الموت الحتمي لها وعليها الآن إنقاذ حياتها المهددة وحياة من تحبهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/bgkFOoXEQMRjKkCvgoj7smdGbuh.jpg",
+   "theatrical": "2014-03-21"
   },
   {
    "itunesId": "1524319178",
@@ -5932,7 +7234,19 @@
     "Samuel L. Jackson",
     "Phil LaMarr"
    ],
-   "metascore": 95
+   "metascore": 95,
+   "tmdb": 680,
+   "titleAr": "خيال رخيص",
+   "overviewAr": "يتقاطع مصير مجموعة من الشخصيات الغريبة في مدينة لوس أنجلوس من خلال سلسلة من الجرائم والمواقف غير المتوقعة، حيث يتورط قاتلان مأجوران في مهام خطيرة، ويجد ملاكم محترف نفسه في مواجهة مع رجال عصابات، بينما تحاول امرأة مرتبطة بأحد زعماء الجريمة الهروب من حياة مليئة بالمخاطر. تتشابك قصصهم وسط عالم من العنف والجريمة والخيانة، وتتحول الأحداث العادية إلى مواقف فوضوية ومفاجآت تقلب حياة الشخصيات رأسًا على عقب.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+   "theatrical": "1994-10-14",
+   "physical": "1995-07-25",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1888604764",
@@ -5975,7 +7289,17 @@
     "Hailey Gates",
     "Sydney Lemmon"
    ],
-   "metascore": 59
+   "metascore": 59,
+   "tmdb": 1325734,
+   "titleAr": "الدراما",
+   "overviewAr": "يواجه خطيبان في قمة سعادتهما اختبارًا مصيريًا، حينما تأخذ الأحداث منعطفًا غير متوقع يقلب أسبوع زفافهما رأسًا على عقب ويخرج بكل خططهما عن السيطرة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
+   "theatrical": "2026-04-03",
+   "digital": "2026-05-05",
+   "digitalCountry": "US",
+   "physical": "2026-07-28",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1869249459",
@@ -6022,7 +7346,20 @@
     "Andy Samberg",
     "David Strathairn"
    ],
-   "metascore": 73
+   "metascore": 73,
+   "tmdb": 1084242,
+   "titleAr": "زوتروبوليس ٢",
+   "overviewAr": "ينطلق المحققان جودي وتيك في مطاردة مشوّقة بعدما يصل إلى زوتروبوليس زاحف غامض يُحدث فوضى عارمة ويقلب عالم الثدييات رأسًا على عقب.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+   "theatrical": "2025-11-26",
+   "digital": "2026-01-26",
+   "digitalCountry": "US",
+   "physical": "2026-03-03",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "599177836",
@@ -6063,7 +7400,12 @@
     "Whitney Vance",
     "Peter Kerwin"
    ],
-   "metascore": 85
+   "metascore": 85,
+   "tmdb": 14295,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/hardcwpNmv4soWzTZWWD6OhzsSX.jpg",
+   "theatrical": "2000-11-17"
   },
   {
    "itunesId": "534960656",
@@ -6105,7 +7447,12 @@
     "John Cazale",
     "Talia Shire"
    ],
-   "metascore": 90
+   "metascore": 90,
+   "tmdb": 240,
+   "titleAr": "العرّاب: الجزء الثاني",
+   "overviewAr": "في الجزء الثاني من ملحمة عائلة كورليوني الإجرامية، نتابع قصة فيتو كورليوني في شبابه، حيث نشأ في صقلية ثم انتقل إلى نيويورك خلال العقد الثاني من القرن العشرين.  وفي خمسينيات القرن الماضي، يسعى مايكل كورليوني إلى توسيع نفوذ وأعمال العائلة لتشمل لاس فيغاس وهوليوود وكوبا.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/pGzqRKrYeK4LogoysNro0vG8d8N.jpg",
+   "theatrical": "1974-12-20"
   },
   {
    "itunesId": "292043107",
@@ -6182,7 +7529,20 @@
     "Alexander Babara",
     "Bobby C. King"
    ],
-   "metascore": 78
+   "metascore": 78,
+   "tmdb": 643532,
+   "titleAr": null,
+   "overviewAr": "ويليام تيل يريد فقط لعب الورق. تحطم وجوده المتقشف على درب الكازينو عندما اقترب منه سيرك، وهو شاب ضعيف وغاضب يطلب المساعدة في تنفيذ خطته للانتقام من عقيد عسكري. يرى تيل فرصة للخلاص من خلال علاقته مع سيرك. لكن إبقاء سيرك على المستقيم والضيق يثبت أنه مستحيل، وسحب Tell مرة أخرى إلى ظلام ماضيه.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/mE0sGZ4CyzibmBG7FYan5CIKuag.jpg",
+   "theatrical": "2021-09-10",
+   "digital": "2021-11-30",
+   "digitalCountry": "US",
+   "physical": "2021-12-14",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "533284299",
@@ -6256,7 +7616,12 @@
     "Jolene Purdy",
     "Daisy Washington"
    ],
-   "metascore": null
+   "metascore": null,
+   "tmdb": 1048923,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/64e7pAhWWkls8BJAyNOpjom7256.jpg",
+   "theatrical": "2024-09-27"
   },
   {
    "itunesId": "1779816224",
@@ -6302,7 +7667,20 @@
     "Laura Birn",
     "Sami Bouajila"
    ],
-   "metascore": 30
+   "metascore": 30,
+   "tmdb": 957452,
+   "titleAr": null,
+   "overviewAr": "تُقتل (شيلي ويبستر) حبيبة (إريك درافين) بشكل صادم، فينطلق الأخير في مغامرة مميتة بحثًا عن الانتقام ووضع الأمور في نصابها الصحيح.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/503LUrI9juBk1rktOPzxyMUTDEu.jpg",
+   "theatrical": "2024-08-23",
+   "digital": "2024-09-13",
+   "digitalCountry": "US",
+   "physical": "2024-11-05",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "296596971",
@@ -6379,7 +7757,20 @@
     "Wallace Shawn",
     "John Ratzenberger"
    ],
-   "metascore": 96
+   "metascore": 96,
+   "tmdb": 862,
+   "titleAr": "حكاية لعبة",
+   "overviewAr": "بقيادة \"وودي\"، تعيش ألعاب \"آندي\" بسعادة في غرفته، إلى أن يجلب عيد ميلاد \"آندي\" \"باز لايتيير\" إلى المشهد. خوفًا من أن يفقد مكانته في قلب \"آندي\"، يخطط \"وودي\" ضد \"باز\". لكن عندما تتسبب الظروف في إبعاد \"باز\" و\"وودي\" عن صاحبهما، يتعلم الثنائي في النهاية أن يضع خلافاتهما جانبًا.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+   "theatrical": "1995-11-22",
+   "digital": "2019-11-12",
+   "digitalCountry": "US",
+   "physical": "1996-10-29",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1811804963",
@@ -6422,7 +7813,20 @@
     "Esai Morales",
     "Pom Klementieff"
    ],
-   "metascore": 67
+   "metascore": 67,
+   "tmdb": 575265,
+   "titleAr": "المهمة المستحيلة - الحساب النهائي",
+   "overviewAr": "يواصل إيثان هانت وفريقه بحثهم عن الذكاء الاصطناعي المرعب المعروف باسم الكيان - الذي تسلل إلى شبكات الاستخبارات في جميع أنحاء العالم - مع حكومات العالم وشبح غامض من ماضي هانت على دربهم. انضم إلى حلفاء جدد ومسلحين بالوسائل اللازمة لإغلاق الكيان إلى الأبد، هانت في سباق مع الزمن لمنع العالم كما نعرفه من التغيير إلى الأبد.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/xPNDRM50a58uvv1il2GVZrtWjkZ.jpg",
+   "theatrical": "2025-05-23",
+   "digital": "2025-08-19",
+   "digitalCountry": "US",
+   "physical": "2025-10-14",
+   "physicalFormats": [
+    "4K UHD",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1718689106",
@@ -6467,7 +7871,20 @@
     "Isabela Merced",
     "Danny DeVito"
    ],
-   "metascore": 56
+   "metascore": 56,
+   "tmdb": 940551,
+   "titleAr": "الهجرة",
+   "overviewAr": "تدور احداث الفيلم عن كوميديا العصر الحديث تتبع عائلة من البط الذين يقنعون والدهم المفرط في الحماية بالذهاب في إجازة العمر أثناء محاولتهم الهجرة من نيو إنجلاند ، عبر مدينة نيويورك ، وفي النهاية إلى جزر البهاما.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/d1ECsrOqB17DamTMPtiUTd6HdXd.jpg",
+   "theatrical": "2023-12-22",
+   "digital": "2024-01-23",
+   "digitalCountry": "US",
+   "physical": "2024-02-27",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1778694892",
@@ -6553,7 +7970,15 @@
     "Jeremy Piven",
     "Emmanuelle Chriqui"
    ],
-   "metascore": 38
+   "metascore": 38,
+   "tmdb": 188222,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/uzobkEgGCfVzmXyXKH6Nbrby4Rm.jpg",
+   "theatrical": "2015-06-03",
+   "physical": "2015-10-26",
+   "physicalFormats": [],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "1704799000",
@@ -6598,7 +8023,17 @@
     "Page Kennedy",
     "Sergio Peris-Mencheta"
    ],
-   "metascore": 40
+   "metascore": 40,
+   "tmdb": 615656,
+   "titleAr": "القرش 2 : الخندق",
+   "overviewAr": "في الجزء الثاني من الفيلم يستمر تتبع قصة جوناس حيث يقرر دراسة ميجالودون بعد اكتشافه أنه ما زال موجود، لكن المفاجأة التي لم يتوقعها جوناس هي مواجهة قرش غريب يعيش في الماء.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/5mzr6JZbrqnqD8rCEvPhuCE5Fw2.jpg",
+   "theatrical": "2023-08-04",
+   "digital": "2023-08-25",
+   "digitalCountry": "US",
+   "physical": "2023-10-24",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "582668909",
@@ -6641,7 +8076,21 @@
     "Conrad Veidt",
     "Sydney Greenstreet"
    ],
-   "metascore": 100
+   "metascore": 100,
+   "tmdb": 289,
+   "titleAr": "كازبلانكا",
+   "overviewAr": "في الدار البيضاء ، المغرب ، في ديسمبر 1941 ، يلتقي مغترب أمريكي ساخر بحبيب سابق ، مع تعقيدات غير متوقعة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/87wqeMeUeMRLjsE1IWNKJcPlpuC.jpg",
+   "theatrical": "1943-01-23",
+   "digital": "2008-04-15",
+   "digitalCountry": "US",
+   "physical": "1989-01-01",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1500302991",
@@ -6714,7 +8163,20 @@
     "Chosen Jacobs",
     "Jack Dylan Grazer"
    ],
-   "metascore": 69
+   "metascore": 69,
+   "tmdb": 346364,
+   "titleAr": "الشيء",
+   "overviewAr": "في بلدة صغيرة بولاية مين، يواجه سبعة أطفال منبوذين مشكلات الحياة وتنمّر أقرانهم، ثم يجدون أنفسهم وجهًا لوجه أمام كيان مرعب يتخذ هيئة مهرج ويتغذى على مخاوفهم.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/qVGpxnjrGlHaSTCqTQI6viBDSfp.jpg",
+   "theatrical": "2017-09-08",
+   "digital": "2017-12-19",
+   "digitalCountry": "US",
+   "physical": "2018-01-09",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1840536879",
@@ -6760,7 +8222,20 @@
     "Gabriel Howell",
     "Julian Dennison"
    ],
-   "metascore": 61
+   "metascore": 61,
+   "tmdb": 1087192,
+   "titleAr": "كيف تروض تنينك",
+   "overviewAr": "يحاول فتى شاب ينتمي لشعب الفايكنج شق طريقه في عالم صيد التنانين وإثبات جدارته وسط شعبه وعائلته، ولكن تتسبب صدفه بحتة في بداية صداقة قوية بينه وبين تنين صغير.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/8J6UlIFcU7eZfq9iCLbgc8Auklg.jpg",
+   "theatrical": "2025-06-13",
+   "digital": "2025-07-15",
+   "digitalCountry": "US",
+   "physical": "2025-08-12",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "306473025",
@@ -6803,7 +8278,12 @@
     "Eliza Bennett",
     "Jennifer Rae Daykin"
    ],
-   "metascore": 59
+   "metascore": 59,
+   "tmdb": 11283,
+   "titleAr": null,
+   "overviewAr": null,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/ijmKdhQQ86L18ZUywjHjM7h7YgO.jpg",
+   "theatrical": "2006-01-27"
   },
   {
    "itunesId": "1854548134",
@@ -6846,7 +8326,21 @@
     "Freddy Carter",
     "Wayne Knight"
    ],
-   "metascore": 26
+   "metascore": 26,
+   "tmdb": 1228246,
+   "titleAr": "خمس ليالٍ في فريدي 2",
+   "overviewAr": "بعد مرور عام على الكابوس الخارق في مطعم فريدي فازبير، تحولت قصص ما جرى إلى أسطورة محلية ساخرة، مما ألهم تنظيم أول «فازفست» في البلدة. دون أن يُكشف لها الحقيقة، تنطلق آبي سرّاً لإعادة التواصل مع فريدي، بوني، تشيكا وفوكسي، لتبدأ سلسلة مرعبة من الأحداث التي ستكشف أسراراً مظلمة عن الأصل الحقيقي لمطعم فريدي، وتطلق رعباً منسيّاً كان مخفيّاً لعقود.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/laWV5ohHOxYnCkvrJcZf6IDOIDO.jpg",
+   "theatrical": "2025-12-05",
+   "digital": "2025-12-23",
+   "digitalCountry": "US",
+   "physical": "2026-02-16",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "288157354",
@@ -6891,7 +8385,15 @@
     "James Dodd",
     "Seth MacFarlane"
    ],
-   "metascore": 78
+   "metascore": 78,
+   "tmdb": 11253,
+   "titleAr": null,
+   "overviewAr": "يخرق قزم شرير ميثاق تاريخي بين البشر والمخلوقات الأسطورية، التي تعلن الحرب ضد الجنس البشري نتيجة ذلك، ويتم التخطيط لمهمة سرية يطلقوا بها سراح الجيش الذهبي، والمكون من مجموعة هائلة من الوحوش والمخلوقات الأسطورية، ومن هنا يتم استدعاء فتى الجحيم (رون بيرلمان) وفريقه لإيقاف مخطط المخلوقات الأسطورية",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/gqQKxYVIaYv53Qoy72nQqQxdXYF.jpg",
+   "theatrical": "2008-07-11",
+   "physical": "2008-11-05",
+   "physicalFormats": [],
+   "physicalCountry": "GB"
   },
   {
    "itunesId": "1783093516",
@@ -6933,7 +8435,20 @@
     "Joseph Quinn",
     "Fred Hechinger"
    ],
-   "metascore": 64
+   "metascore": 64,
+   "tmdb": 558449,
+   "titleAr": "المجالد 2",
+   "overviewAr": "تدور أحداث العمل حول (لوشيوس)، ابن حبيبة (ماكسيموس) والتي تُعرف باسم (لوسيا)، ذلك في أعقاب وفاة (ماكسيموس) وانقلاب موازين القوة.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg",
+   "theatrical": "2024-11-22",
+   "digital": "2024-12-24",
+   "digitalCountry": "US",
+   "physical": "2025-03-04",
+   "physicalFormats": [
+    "4K UHD",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1538517204",
@@ -6976,7 +8491,21 @@
     "John David Washington",
     "Rich Ceraulo Ko"
    ],
-   "metascore": 69
+   "metascore": 69,
+   "tmdb": 577922,
+   "titleAr": "عقيدة",
+   "overviewAr": "الوقت ينفد.\r مسلحا بكلمة واحدة فقط - تينيت - ويقاتل من أجل بقاء العالم بأسره ، يسافر بطل الرواية عبر عالم الشفق من التجسس الدولي في مهمة ستتكشف في شيء يتجاوز الوقت الحقيقي.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/mQOUyqDybTqxl73hO5LujCZsM1o.jpg",
+   "theatrical": "2020-09-03",
+   "digital": "2020-12-15",
+   "digitalCountry": "US",
+   "physical": "2020-12-15",
+   "physicalFormats": [
+    "4K UHD",
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "283825211",
@@ -7057,7 +8586,17 @@
     "Ray Winstone",
     "Ever Anderson"
    ],
-   "metascore": 68
+   "metascore": 68,
+   "tmdb": 497698,
+   "titleAr": "الأرملة السوداء",
+   "overviewAr": "تواجه ناتاشا رومانوف الجوانب المظلمة من ماضيها حين تظهر مؤامرة خطيرة مرتبطة بماضيها.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg",
+   "theatrical": "2021-07-09",
+   "digital": "2021-07-09",
+   "digitalCountry": "US",
+   "physical": "2021-09-14",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1037551705",
@@ -7102,7 +8641,15 @@
     "Steve Buscemi",
     "David Spade"
    ],
-   "metascore": 44
+   "metascore": 44,
+   "tmdb": 159824,
+   "titleAr": "فندق ترانسلفانيا 2",
+   "overviewAr": "عندما يصل مصاص الدماء القديم إلى الفندق للقاء عائلي مرتجل ، يكون فندق ترانسيلفانيا في تصادم بين المدرسة القديمة الخارقة للطبيعة وبرودة العصر الحديث.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/mfnkxXWuh2Br097Qteq8ieqKfev.jpg",
+   "theatrical": "2015-09-25",
+   "physical": "2016-01-12",
+   "physicalFormats": [],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1673875233",
@@ -7148,7 +8695,20 @@
     "Steve Buscemi",
     "Molly Shannon"
    ],
-   "metascore": 46
+   "metascore": 46,
+   "tmdb": 585083,
+   "titleAr": "فندق ترانسلفانيا 4∶ ترانسفورمينيا ‏",
+   "overviewAr": "بسبب الماكينة الجديدة التي ابتكرها فان هلسينج، يتحول دارك وعصبته من الوحوش إلى بشر، أما جوني فعلى العكس يصير وحشًا، وعلى أفراد العصبة أن يعودوا لسابق عهدهم قبل فوات اﻷوان.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/7QabKu8tizoqy8qCZJXljdSpP4A.jpg",
+   "theatrical": "2022-02-25",
+   "digital": "2022-01-13",
+   "digitalCountry": "US",
+   "physical": "2023-08-15",
+   "physicalFormats": [
+    "Blu-ray",
+    "DVD"
+   ],
+   "physicalCountry": "US"
   },
   {
    "itunesId": "1484458829",
@@ -7190,7 +8750,15 @@
     "Brianna Hildebrand",
     "Christian Convery"
    ],
-   "metascore": 24
+   "metascore": 24,
+   "tmdb": 554241,
+   "titleAr": "اللعب بالنار",
+   "overviewAr": "تدور احداث الفيلم حول خلال واحدة من مهامهم، ينقذ ثلاثة من رجال اﻹطفاء ثلاثة أطفال متعجرفين من منزلهم المحترق، وعليهم أن يظلوا تحت رعايتهم، ويمرون معهم بالعديد من المواقف الكوميدية.",
+   "backdrop": "https://image.tmdb.org/t/p/w1280/5ukCAyXdRYmQEZ3CbSD695Y70Zz.jpg",
+   "theatrical": "2019-11-08",
+   "physical": "2020-05-04",
+   "physicalFormats": [],
+   "physicalCountry": "GB"
   }
  ]
 }

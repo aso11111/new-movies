@@ -247,6 +247,70 @@ def tmdb_enrich(m, h):
     m.update(release_info(j.get("release_dates")))
 
 
+# ---------------- phone notifications (ntfy) ----------------
+
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+SITE = "https://aso11111.github.io/new-movies/"
+HIGH_RATING = 7.5
+
+
+def notify(title, message, m):
+    body = {
+        "topic": NTFY_TOPIC,
+        "title": title,
+        "message": message,
+        "click": SITE + "#" + m["itunesId"],
+        "tags": ["movie_camera"],
+    }
+    if m.get("poster"):
+        body["attach"] = m["poster"].replace("/600x900bb.jpg", "/300x450bb.jpg")
+        body["filename"] = "poster.jpg"
+    req = urllib.request.Request("https://ntfy.sh/", data=json.dumps(body).encode("utf-8"),
+                                 headers={"Content-Type": "application/json", "User-Agent": UA})
+    try:
+        urllib.request.urlopen(req, timeout=20).read()
+        return True
+    except Exception as e:  # noqa
+        print("notify failed:", e)
+        return False
+
+
+def notifications(movies, history):
+    """4K disc released / new high-rated movie. The first run only records what exists (no spam)."""
+    if not NTFY_TOPIC:
+        print("NTFY_TOPIC not set: no notifications")
+        return
+    state = history.setdefault("_notify", {"init": False, "sent": []})
+    sent = set(state["sent"])
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    events = []
+    for m in movies:
+        name = m["title"] + (" (%s)" % m["year"] if m.get("year") else "")
+        ar_name = m.get("titleAr")
+        line2 = "⭐ %s IMDb" % m["rating"] if m.get("rating") else ""
+        if m.get("physical") and m["physical"] <= today and "4K UHD" in (m.get("physicalFormats") or []):
+            events.append(("4k:" + m["itunesId"], "💿 نزل على 4K: " + name,
+                           " • ".join(x for x in [ar_name, line2, "متوفر الآن على 4K UHD Blu-ray"] if x), m))
+        if m.get("rating") and m["rating"] >= HIGH_RATING:
+            events.append(("hi:" + m["itunesId"], "⭐ فيلم جديد تقييمه عالي: " + name,
+                           " • ".join(x for x in [ar_name, line2, "نزل رقمياً" + (" " + m["digital"] if m.get("digital") else "")] if x), m))
+    new = [e for e in events if e[0] not in sent]
+    if not state["init"]:
+        state["init"] = True
+        state["sent"] = sorted(sent | {e[0] for e in events})
+        print("notifications initialised; recorded", len(events), "existing events")
+        notify("✅ تنبيهات الأفلام اشتغلت", "بيوصلك تنبيه إذا نزل فيلم على 4K أو دخل فيلم تقييمه %.1f أو أكثر" % HIGH_RATING,
+               {"itunesId": "", "poster": ""})
+        return
+    count = 0
+    for key, title, msg, m in new[:8]:   # cap per run
+        if notify(title, msg, m):
+            sent.add(key)
+            count += 1
+    state["sent"] = sorted(sent)
+    print("notifications sent:", count, "pending:", len(new) - count)
+
+
 def main():
     os.makedirs(DATA, exist_ok=True)
     hist_path = os.path.join(DATA, "history.json")
@@ -324,6 +388,8 @@ def main():
               "arabic overview:", sum(1 for m in movies if m.get("overviewAr")))
     else:
         print("TMDB_KEY not set: skipping release dates")
+
+    notifications(movies, history)
 
     out = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

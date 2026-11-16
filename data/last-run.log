@@ -1,4 +1,3 @@
-FAIL https://v2.sg.media-imdb.com/suggestion/%D8%B0/%D8%B0%D8%A7%20%D9%81%D9%84%D8%A7%D8%B4.json HTTP Error 404: Not Found
-tmdb: 139 digital dates: 87 physical: 87 arabic overview: 123
-notifications sent: 8 pending: 1
-movies: 156 imdb ids: 145 rated: 144 with cast: 141
+tmdb: 143 digital dates: 97 physical: 93 arabic overview: 127
+notifications sent: 7 pending: 0
+movies: 154 imdb ids: 143 rated: 146 with cast: 143

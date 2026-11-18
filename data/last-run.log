@@ -1,3 +1,4 @@
-tmdb: 148 digital dates: 88 physical: 92 arabic overview: 132
-quiet hours (Riyadh 23:00): 8 notifications waiting
-movies: 153 imdb ids: 146 rated: 149 with cast: 144
+FAIL https://v2.sg.media-imdb.com/suggestion/%D9%88/%D9%88%D9%86%D9%83%D8%A7.json HTTP Error 404: Not Found
+tmdb: 148 digital dates: 86 physical: 93 arabic overview: 132
+notifications sent: 8 pending: 13
+movies: 155 imdb ids: 149 rated: 149 with cast: 145

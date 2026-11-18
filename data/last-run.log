@@ -1,4 +1,3 @@
-FAIL https://v2.sg.media-imdb.com/suggestion/%D9%88/%D9%88%D9%86%D9%83%D8%A7.json HTTP Error 404: Not Found
-tmdb: 148 digital dates: 86 physical: 93 arabic overview: 132
-notifications sent: 8 pending: 13
-movies: 155 imdb ids: 149 rated: 149 with cast: 145
+tmdb: 140 digital dates: 93 physical: 100 arabic overview: 129
+quiet hours (Riyadh 23:00): 15 notifications waiting
+movies: 152 imdb ids: 143 rated: 143 with cast: 140

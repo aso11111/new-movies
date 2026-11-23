@@ -1,4 +1,5 @@
+FAIL https://v2.sg.media-imdb.com/suggestion/%D9%88/%D9%88%D9%86%D9%83%D8%A7.json HTTP Error 404: Not Found
 FAIL https://api.themoviedb.org/3/movie/1814888?language=ar-SA&append_to_response=release_dates&api_key=6810507e671a33b13d9f6 HTTP Error 404: Not Found
-tmdb: 140 digital dates: 91 physical: 87 arabic overview: 122
-notifications sent: 4 pending: 0
-movies: 149 imdb ids: 142 rated: 143 with cast: 140
+tmdb: 142 digital dates: 95 physical: 89 arabic overview: 120
+quiet hours (Riyadh 2:00): 7 notifications waiting
+movies: 148 imdb ids: 143 rated: 142 with cast: 141

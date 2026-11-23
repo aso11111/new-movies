@@ -1,4 +1,4 @@
 FAIL https://api.themoviedb.org/3/movie/1814888?language=ar-SA&append_to_response=release_dates&api_key=6810507e671a33b13d9f6 HTTP Error 404: Not Found
-tmdb: 146 digital dates: 89 physical: 89 arabic overview: 126
-notifications sent: 8 pending: 3
-movies: 153 imdb ids: 147 rated: 149 with cast: 146
+tmdb: 140 digital dates: 91 physical: 87 arabic overview: 122
+notifications sent: 4 pending: 0
+movies: 149 imdb ids: 142 rated: 143 with cast: 140

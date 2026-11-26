@@ -1,4 +1,4 @@
 FAIL https://api.themoviedb.org/3/movie/1814888?language=ar-SA&append_to_response=release_dates&api_key=6810507e671a33b13d9f6 HTTP Error 404: Not Found
-tmdb: 140 digital dates: 95 physical: 89 arabic overview: 128
-quiet hours (Riyadh 0:00): 10 notifications waiting
-movies: 150 imdb ids: 144 rated: 142 with cast: 141
+tmdb: 143 digital dates: 89 physical: 87 arabic overview: 126
+notifications sent: 8 pending: 0
+movies: 149 imdb ids: 145 rated: 144 with cast: 144
